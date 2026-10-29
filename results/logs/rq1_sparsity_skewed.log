@@ -1,0 +1,6 @@
+skewed d=     8 N/d= 512.00 NAO FPR@1e-2=0.0060 NAO-1=0.0130
+skewed d=    64 N/d=  64.00 NAO FPR@1e-2=0.0170 NAO-1=0.0170
+skewed d=   256 N/d=  16.00 NAO FPR@1e-2=0.0080 NAO-1=0.0140
+skewed d=  1024 N/d=   4.00 NAO FPR@1e-2=0.0980 NAO-1=0.0580
+skewed d=  4096 N/d=   1.00 NAO FPR@1e-2=0.0000 NAO-1=0.0000
+skewed d= 16384 N/d=   0.25 NAO FPR@1e-2=0.0000 NAO-1=0.0000

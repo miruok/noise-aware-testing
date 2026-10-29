@@ -1,0 +1,78 @@
+bell     low     noise_amplifying=0.27 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+bell     medium  noise_amplifying=0.27 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+bell     high    noise_amplifying=0.27 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+ghz_3    low     noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+ghz_3    medium  noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+ghz_3    high    noise_amplifying=0.40 noise_neutral=0.13 semantic_additive=1.00 semantic_subtractive=1.00
+qft_3    low     noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+qft_3    medium  noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+qft_3    high    noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=0.93 semantic_subtractive=1.00
+qaoa_3   low     noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+qaoa_3   medium  noise_amplifying=0.13 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+qaoa_3   high    noise_amplifying=0.33 noise_neutral=0.00 semantic_additive=0.80 semantic_subtractive=1.00
+vqe_3    low     noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=0.87 semantic_subtractive=1.00
+vqe_3    medium  noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=0.80 semantic_subtractive=1.00
+vqe_3    high    noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=0.73 semantic_subtractive=1.00
+bell_8   low     noise_amplifying=0.27 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+bell_8   medium  noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+bell_8   high    noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=0.93 semantic_subtractive=1.00
+ghz_8    low     noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+ghz_8    medium  noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+ghz_8    high    noise_amplifying=0.40 noise_neutral=0.00 semantic_additive=0.93 semantic_subtractive=1.00
+qaoa_8   low     noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+qaoa_8   medium  noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=1.00 semantic_subtractive=1.00
+qaoa_8   high    noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=0.13 semantic_subtractive=0.47
+hwe_6    low     noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=0.93 semantic_subtractive=0.80
+hwe_6    medium  noise_amplifying=0.00 noise_neutral=0.00 semantic_additive=0.93 semantic_subtractive=0.80
+hwe_6    high    noise_amplifying=0.07 noise_neutral=0.00 semantic_additive=0.87 semantic_subtractive=0.73
+RQ3 MUTATION ANALYSIS
+
+Rejection rate by taxonomy class (semantic: mutation score; equivalent classes: false-rejection rate)
+  nao           semantic=760/810=0.938  noise_amplifying=84/405=0.207  noise_neutral=2/405=0.005
+  nao1          semantic=744/810=0.919  noise_amplifying=75/405=0.185  noise_neutral=5/405=0.012
+  spc_envelope  semantic=639/810=0.789  noise_amplifying=26/405=0.064  noise_neutral=0/405=0.000
+
+By family
+  nao           noise_amplifying=84/405=0.207  noise_neutral=2/405=0.005  semantic_additive=373/405=0.921  semantic_subtractive=387/405=0.956
+  nao1          noise_amplifying=75/405=0.185  noise_neutral=5/405=0.012  semantic_additive=360/405=0.889  semantic_subtractive=384/405=0.948
+  spc_envelope  noise_amplifying=26/405=0.064  noise_neutral=0/405=0.000  semantic_additive=312/405=0.770  semantic_subtractive=327/405=0.807
+
+NAO by noise level
+  semantic                 low=0.978  medium=0.974  high=0.863
+  noise_amplifying         low=0.148  medium=0.222  high=0.252
+  noise_neutral            low=0.000  medium=0.000  high=0.015
+
+NAO by operator
+  commute_swap           0.000 (n=117)
+  cx_pair                0.538 (n=156)
+  cx_to_h_cz_h           0.007 (n=288)
+  insert_cnot            0.935 (n=108)
+  insert_rotation        0.925 (n=159)
+  insert_t               0.738 (n=42)
+  insert_x               0.979 (n=96)
+  inverse_pair_1q        0.000 (n=135)
+  remove_1q_gate         0.965 (n=171)
+  remove_gate            1.000 (n=165)
+  rotation_pair          0.000 (n=114)
+  rotation_to_identity   0.826 (n=69)
+
+Taxonomy class tests (NAO)
+  pooled  semantic_vs_noise_amplifying                               rates 0.938 vs 0.207  Fisher p=4.72e-155 sig=True  MW p=2.35e-147  delta=+0.91  CMH p=1.09e-156  cells >/=/< 27/0/0  sign-flip p=5.00e-06
+  pooled  semantic_vs_noise_neutral                                  rates 0.938 vs 0.005  Fisher p=2.05e-262 sig=True  MW p=1.18e-170  delta=+0.98  CMH p=3.84e-223  cells >/=/< 27/0/0  sign-flip p=5.00e-06
+  pooled  noise_amplifying_vs_noise_neutral                          rates 0.207 vs 0.005  Fisher p=9.76e-25 sig=True  MW p=1.82e-09  delta=+0.24  CMH p=1.68e-21  cells >/=/< 17/10/0  sign-flip p=2.50e-05
+  low     semantic_vs_noise_amplifying                               rates 0.978 vs 0.148  Fisher p=2.45e-71 sig=True  MW p=1.79e-58  delta=+0.98  CMH p=1.05e-65  cells >/=/< 9/0/0  sign-flip p=3.91e-03
+  low     semantic_vs_noise_neutral                                  rates 0.978 vs 0.000  Fisher p=2.58e-101 sig=True  MW p=7.65e-60  delta=+0.99  CMH p=5.24e-82  cells >/=/< 9/0/0  sign-flip p=3.91e-03
+  low     noise_amplifying_vs_noise_neutral                          rates 0.148 vs 0.000  Fisher p=8.93e-07 sig=True  MW p=9.36e-04  delta=+0.23  CMH p=4.34e-06  cells >/=/< 4/5/0  sign-flip p=1.25e-01
+  medium  semantic_vs_noise_amplifying                               rates 0.974 vs 0.222  Fisher p=7.90e-60 sig=True  MW p=6.73e-54  delta=+0.94  CMH p=1.24e-56  cells >/=/< 9/0/0  sign-flip p=3.91e-03
+  medium  semantic_vs_noise_neutral                                  rates 0.974 vs 0.000  Fisher p=5.23e-100 sig=True  MW p=2.31e-59  delta=+0.99  CMH p=3.32e-81  cells >/=/< 9/0/0  sign-flip p=3.91e-03
+  medium  noise_amplifying_vs_noise_neutral                          rates 0.222 vs 0.000  Fisher p=3.04e-10 sig=True  MW p=1.01e-04  delta=+0.27  CMH p=8.59e-09  cells >/=/< 6/3/0  sign-flip p=3.12e-02
+  high    semantic_vs_noise_amplifying                               rates 0.863 vs 0.252  Fisher p=1.77e-34 sig=True  MW p=1.56e-34  delta=+0.75  CMH p=3.07e-38  cells >/=/< 9/0/0  sign-flip p=3.91e-03
+  high    semantic_vs_noise_neutral                                  rates 0.863 vs 0.015  Fisher p=2.57e-69 sig=True  MW p=2.23e-53  delta=+0.94  CMH p=7.36e-63  cells >/=/< 9/0/0  sign-flip p=3.91e-03
+  high    noise_amplifying_vs_noise_neutral                          rates 0.252 vs 0.015  Fisher p=2.31e-09 sig=True  MW p=4.50e-04  delta=+0.25  CMH p=1.40e-08  cells >/=/< 7/2/0  sign-flip p=1.56e-02
+
+Semantic family tests (NAO)
+  pooled  semantic_additive_vs_semantic_subtractive                  rates 0.921 vs 0.956  Fisher p=5.67e-02 sig=False  MW p=1.61e-01  delta=-0.06  CMH p=2.31e-02  cells >/=/< 3/16/8  sign-flip p=1.47e-01
+  low     semantic_additive_vs_semantic_subtractive                  rates 0.978 vs 0.978  Fisher p=1.00e+00 sig=False  MW p=5.47e-01  delta=-0.04  CMH p=6.70e-01  cells >/=/< 1/7/1  sign-flip p=1.00e+00
+  medium  semantic_additive_vs_semantic_subtractive                  rates 0.970 vs 0.978  Fisher p=1.00e+00 sig=False  MW p=5.25e-01  delta=-0.04  CMH p=1.00e+00  cells >/=/< 1/7/1  sign-flip p=1.00e+00
+  high    semantic_additive_vs_semantic_subtractive                  rates 0.815 vs 0.911  Fisher p=3.26e-02 sig=True  MW p=1.06e-01  delta=-0.11  CMH p=8.61e-03  cells >/=/< 1/2/6  sign-flip p=1.25e-01
+

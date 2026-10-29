@@ -1,0 +1,22 @@
+{
+  "config": {
+    "windows_spc": 5,
+    "windows_nao": 8,
+    "seed_spc": 29,
+    "seed_nao": 23,
+    "B": 3000,
+    "out": null,
+    "shots_spc": 4096
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.0",
+    "qiskit_aer": "0.18.0",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "qiskit_ibm_runtime": "0.50.0"
+  },
+  "started": "2026-10-20 11:43:27",
+  "wall_seconds": 2049.8
+}

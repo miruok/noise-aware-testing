@@ -1,0 +1,71 @@
+ghz_3 0.0 {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0} {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0}
+ghz_3 0.1 {'nao1': 0.0, 'nao': 0.016, 'spc_envelope': 0.0} {'nao1': 0.0, 'nao': 0.016, 'spc_envelope': 0.0}
+ghz_3 0.25 {'nao1': 0.152, 'nao': 0.4, 'spc_envelope': 0.0} {'nao1': 0.104, 'nao': 0.224, 'spc_envelope': 0.0}
+ghz_3 0.5 {'nao1': 0.952, 'nao': 0.984, 'spc_envelope': 0.0} {'nao1': 0.0, 'nao': 0.008, 'spc_envelope': 0.0}
+ghz_3 1.0 {'nao1': 1.0, 'nao': 1.0, 'spc_envelope': 0.0} {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0}
+qaoa_3 0.0 {'nao1': 0.008, 'nao': 0.0, 'spc_envelope': 0.0} {'nao1': 0.008, 'nao': 0.0, 'spc_envelope': 0.0}
+qaoa_3 0.1 {'nao1': 0.016, 'nao': 0.008, 'spc_envelope': 0.0} {'nao1': 0.016, 'nao': 0.008, 'spc_envelope': 0.0}
+qaoa_3 0.25 {'nao1': 0.216, 'nao': 0.656, 'spc_envelope': 0.0} {'nao1': 0.096, 'nao': 0.184, 'spc_envelope': 0.0}
+qaoa_3 0.5 {'nao1': 1.0, 'nao': 1.0, 'spc_envelope': 0.0} {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0}
+qaoa_3 1.0 {'nao1': 1.0, 'nao': 1.0, 'spc_envelope': 0.0} {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0}
+bell_8 0.0 {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0} {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0}
+bell_8 0.1 {'nao1': 0.024, 'nao': 0.0, 'spc_envelope': 0.0} {'nao1': 0.024, 'nao': 0.0, 'spc_envelope': 0.0}
+bell_8 0.25 {'nao1': 0.208, 'nao': 0.272, 'spc_envelope': 0.056} {'nao1': 0.128, 'nao': 0.192, 'spc_envelope': 0.04}
+bell_8 0.5 {'nao1': 1.0, 'nao': 1.0, 'spc_envelope': 1.0} {'nao1': 0.008, 'nao': 0.0, 'spc_envelope': 0.0}
+bell_8 1.0 {'nao1': 1.0, 'nao': 1.0, 'spc_envelope': 1.0} {'nao1': 0.008, 'nao': 0.0, 'spc_envelope': 0.0}
+qaoa_8 0.0 {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.008} {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.008}
+qaoa_8 0.1 {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0} {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0}
+qaoa_8 0.25 {'nao1': 0.008, 'nao': 0.016, 'spc_envelope': 0.024} {'nao1': 0.008, 'nao': 0.016, 'spc_envelope': 0.024}
+qaoa_8 0.5 {'nao1': 0.04, 'nao': 0.184, 'spc_envelope': 0.04} {'nao1': 0.04, 'nao': 0.176, 'spc_envelope': 0.04}
+qaoa_8 1.0 {'nao1': 0.88, 'nao': 1.0, 'spc_envelope': 0.784} {'nao1': 0.0, 'nao': 0.0, 'spc_envelope': 0.0}
+RQ5 DRIFT AND COST (eta0=0.005, alpha=0.001)
+
+(a) FPR at eta0(1+r) after calibration at eta0
+  ghz_3   r=0.0   no sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   recal=0.00
+  ghz_3   r=0.1   no sentinel nao1=0.000 nao=0.016 spc_envelope=0.000   sentinel nao1=0.000 nao=0.016 spc_envelope=0.000   recal=0.00
+  ghz_3   r=0.25  no sentinel nao1=0.152 nao=0.400 spc_envelope=0.000   sentinel nao1=0.104 nao=0.224 spc_envelope=0.000   recal=0.40
+  ghz_3   r=0.5   no sentinel nao1=0.952 nao=0.984 spc_envelope=0.000   sentinel nao1=0.000 nao=0.008 spc_envelope=0.000   recal=1.00
+  ghz_3   r=1.0   no sentinel nao1=1.000 nao=1.000 spc_envelope=0.000   sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   recal=1.00
+  qaoa_3  r=0.0   no sentinel nao1=0.008 nao=0.000 spc_envelope=0.000   sentinel nao1=0.008 nao=0.000 spc_envelope=0.000   recal=0.00
+  qaoa_3  r=0.1   no sentinel nao1=0.016 nao=0.008 spc_envelope=0.000   sentinel nao1=0.016 nao=0.008 spc_envelope=0.000   recal=0.00
+  qaoa_3  r=0.25  no sentinel nao1=0.216 nao=0.656 spc_envelope=0.000   sentinel nao1=0.096 nao=0.184 spc_envelope=0.000   recal=0.72
+  qaoa_3  r=0.5   no sentinel nao1=1.000 nao=1.000 spc_envelope=0.000   sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   recal=1.00
+  qaoa_3  r=1.0   no sentinel nao1=1.000 nao=1.000 spc_envelope=0.000   sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   recal=1.00
+  bell_8  r=0.0   no sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   recal=0.00
+  bell_8  r=0.1   no sentinel nao1=0.024 nao=0.000 spc_envelope=0.000   sentinel nao1=0.024 nao=0.000 spc_envelope=0.000   recal=0.00
+  bell_8  r=0.25  no sentinel nao1=0.208 nao=0.272 spc_envelope=0.056   sentinel nao1=0.128 nao=0.192 spc_envelope=0.040   recal=0.24
+  bell_8  r=0.5   no sentinel nao1=1.000 nao=1.000 spc_envelope=1.000   sentinel nao1=0.008 nao=0.000 spc_envelope=0.000   recal=1.00
+  bell_8  r=1.0   no sentinel nao1=1.000 nao=1.000 spc_envelope=1.000   sentinel nao1=0.008 nao=0.000 spc_envelope=0.000   recal=1.00
+  qaoa_8  r=0.0   no sentinel nao1=0.000 nao=0.000 spc_envelope=0.008   sentinel nao1=0.000 nao=0.000 spc_envelope=0.008   recal=0.00
+  qaoa_8  r=0.1   no sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   recal=0.00
+  qaoa_8  r=0.25  no sentinel nao1=0.008 nao=0.016 spc_envelope=0.024   sentinel nao1=0.008 nao=0.016 spc_envelope=0.024   recal=0.04
+  qaoa_8  r=0.5   no sentinel nao1=0.040 nao=0.184 spc_envelope=0.040   sentinel nao1=0.040 nao=0.176 spc_envelope=0.040   recal=0.08
+  qaoa_8  r=1.0   no sentinel nao1=0.880 nao=1.000 spc_envelope=0.784   sentinel nao1=0.000 nao=0.000 spc_envelope=0.000   recal=1.00
+
+(b) drift detection inside the calibration window (K = 8)
+  ghz_3   r=0.0   detected=0.00
+  ghz_3   r=0.1   detected=0.00
+  ghz_3   r=0.25  detected=0.32
+  ghz_3   r=0.5   detected=1.00
+  ghz_3   r=1.0   detected=1.00
+  qaoa_3  r=0.0   detected=0.04
+  qaoa_3  r=0.1   detected=0.00
+  qaoa_3  r=0.25  detected=0.32
+  qaoa_3  r=0.5   detected=1.00
+  qaoa_3  r=1.0   detected=1.00
+  bell_8  r=0.0   detected=0.00
+  bell_8  r=0.1   detected=0.12
+  bell_8  r=0.25  detected=0.56
+  bell_8  r=0.5   detected=1.00
+  bell_8  r=1.0   detected=1.00
+  qaoa_8  r=0.0   detected=0.00
+  qaoa_8  r=0.1   detected=0.00
+  qaoa_8  r=0.25  detected=0.04
+  qaoa_8  r=0.5   detected=0.12
+  qaoa_8  r=1.0   detected=0.84
+
+(c) executions per campaign
+  M_tests=10  NAO-1=11  NAO (K=8)=18  NAO (K=8) + sentinel every 50 tests=19  SPC envelope (K=12)=23  QOIN-style (K_c=5)=16  fixed threshold=10
+  M_tests=100  NAO-1=101  NAO (K=8)=108  NAO (K=8) + sentinel every 50 tests=110  SPC envelope (K=12)=113  QOIN-style (K_c=5)=106  fixed threshold=100
+  M_tests=1000  NAO-1=1001  NAO (K=8)=1008  NAO (K=8) + sentinel every 50 tests=1028  SPC envelope (K=12)=1013  QOIN-style (K_c=5)=1006  fixed threshold=1000
+

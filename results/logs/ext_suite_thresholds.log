@@ -1,0 +1,5 @@
+global threshold very_low 0.2666
+global threshold low 0.3697
+global threshold medium 0.6461
+global threshold high 0.813
+global threshold very_high 0.9108

@@ -1,0 +1,65 @@
+bell low cx_pairs1=0.8 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.1 1q_pairs16=0.8
+bell medium cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.7 1q_pairs16=1.0
+bell high cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.1 1q_pairs4=1.0 1q_pairs16=1.0
+ghz_3 low cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.5
+ghz_3 medium cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.5 1q_pairs16=1.0
+ghz_3 high cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.8 1q_pairs16=1.0
+qft_3 low cx_pairs1=0.0 cx_pairs2=0.0 cx_pairs4=0.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+qft_3 medium cx_pairs1=0.0 cx_pairs2=0.0 cx_pairs4=0.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+qft_3 high cx_pairs1=0.0 cx_pairs2=0.0 cx_pairs4=0.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+qaoa_3 low cx_pairs1=0.1 cx_pairs2=0.2 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.1
+qaoa_3 medium cx_pairs1=0.8 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.1 1q_pairs16=1.0
+qaoa_3 high cx_pairs1=0.8 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.9
+vqe_3 low cx_pairs1=0.0 cx_pairs2=0.2 cx_pairs4=0.8 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+vqe_3 medium cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.6
+vqe_3 high cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.4 1q_pairs16=1.0
+bell_8 low cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.1
+bell_8 medium cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.8
+bell_8 high cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.9
+ghz_8 low cx_pairs1=0.9 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+ghz_8 medium cx_pairs1=0.9 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=1.0
+ghz_8 high cx_pairs1=1.0 cx_pairs2=1.0 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=1.0
+qaoa_8 low cx_pairs1=0.0 cx_pairs2=0.0 cx_pairs4=0.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+qaoa_8 medium cx_pairs1=0.0 cx_pairs2=0.0 cx_pairs4=0.1 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+qaoa_8 high cx_pairs1=0.0 cx_pairs2=0.0 cx_pairs4=0.1 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+hwe_6 low cx_pairs1=0.0 cx_pairs2=0.0 cx_pairs4=0.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.0
+hwe_6 medium cx_pairs1=0.0 cx_pairs2=0.6 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.1
+hwe_6 high cx_pairs1=0.7 cx_pairs2=0.8 cx_pairs4=1.0 1q_pairs1=0.0 1q_pairs4=0.0 1q_pairs16=0.1
+RQ2 NOISE-AMPLIFICATION DOSE-RESPONSE (NAO, K = 8, alpha = 1e-3)
+
+Rejection rate by dose
+  low     cx_pairs  k=1   rejected 38/90 = 0.422  predicted 0.359
+  low     cx_pairs  k=2   rejected 44/90 = 0.489  predicted 0.501
+  low     cx_pairs  k=4   rejected 58/90 = 0.644  predicted 0.671
+  low     1q_pairs  k=1   rejected 0/90 = 0.000  predicted 0.002
+  low     1q_pairs  k=4   rejected 1/90 = 0.011  predicted 0.010
+  low     1q_pairs  k=16  rejected 15/90 = 0.167  predicted 0.199
+  medium  cx_pairs  k=1   rejected 57/90 = 0.633  predicted 0.660
+  medium  cx_pairs  k=2   rejected 66/90 = 0.733  predicted 0.753
+  medium  cx_pairs  k=4   rejected 71/90 = 0.789  predicted 0.817
+  medium  1q_pairs  k=1   rejected 0/90 = 0.000  predicted 0.005
+  medium  1q_pairs  k=4   rejected 13/90 = 0.144  predicted 0.112
+  medium  1q_pairs  k=16  rejected 55/90 = 0.611  predicted 0.565
+  high    cx_pairs  k=1   rejected 65/90 = 0.722  predicted 0.708
+  high    cx_pairs  k=2   rejected 68/90 = 0.756  predicted 0.769
+  high    cx_pairs  k=4   rejected 71/90 = 0.789  predicted 0.805
+  high    1q_pairs  k=1   rejected 1/90 = 0.011  predicted 0.009
+  high    1q_pairs  k=4   rejected 22/90 = 0.244  predicted 0.251
+  high    1q_pairs  k=16  rejected 59/90 = 0.656  predicted 0.671
+
+Rejection rate by added gate error
+  [0.00, 0.01)  n= 270  rate=0.004  predicted=0.006
+  [0.01, 0.05)  n= 450  rate=0.247  predicted=0.236
+  [0.05, 0.10)  n= 180  rate=0.639  predicted=0.666
+  [0.10, 0.20)  n= 270  rate=0.530  predicted=0.523
+  [0.20, 0.40)  n= 180  rate=0.756  predicted=0.763
+  [0.40, 1.00)  n= 270  rate=0.733  predicted=0.748
+
+Predicted vs observed
+  predicted [0.0, 0.1)  n= 818  mean predicted=0.011  observed=0.009
+  predicted [0.1, 0.5)  n=  95  mean predicted=0.252  observed=0.211
+  predicted [0.5, 0.9)  n= 112  mean predicted=0.743  observed=0.812
+  predicted [0.9, 1.0)  n= 595  mean predicted=0.994  observed=0.985
+
+Brier score 0.0282 (constant predictor 0.2457); Spearman(added error, delta) = 0.606
+
