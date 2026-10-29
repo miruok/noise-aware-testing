@@ -1,0 +1,213 @@
+[
+  {
+    "circuit": "ghz_8",
+    "qubits": 8,
+    "outcomes": 256,
+    "shots_per_outcome": 16.0,
+    "tests": 32,
+    "fault_evals": 32,
+    "faults": [
+      "remove_entanglement",
+      "wrong_basis",
+      "extra_x",
+      "drop_last_gate"
+    ],
+    "fpr": {
+      "nao": 0.0,
+      "nao_marginal": 0.0,
+      "spc_envelope": 0.0
+    },
+    "recall": {
+      "nao": 1.0,
+      "nao_marginal": 1.0,
+      "spc_envelope": 1.0
+    },
+    "median_tau_nao": 0.012172621243462037,
+    "median_tau_spc": 0.02
+  },
+  {
+    "circuit": "ghz_10",
+    "qubits": 10,
+    "outcomes": 1024,
+    "shots_per_outcome": 4.0,
+    "tests": 32,
+    "fault_evals": 32,
+    "faults": [
+      "remove_entanglement",
+      "wrong_basis",
+      "extra_x",
+      "drop_last_gate"
+    ],
+    "fpr": {
+      "nao": 0.0,
+      "nao_marginal": 0.0,
+      "spc_envelope": 0.0
+    },
+    "recall": {
+      "nao": 1.0,
+      "nao_marginal": 1.0,
+      "spc_envelope": 1.0
+    },
+    "median_tau_nao": 0.022932929853334137,
+    "median_tau_spc": 0.03341239919324887
+  },
+  {
+    "circuit": "ghz_12",
+    "qubits": 12,
+    "outcomes": 4096,
+    "shots_per_outcome": 1.0,
+    "tests": 32,
+    "fault_evals": 32,
+    "faults": [
+      "remove_entanglement",
+      "wrong_basis",
+      "extra_x",
+      "drop_last_gate"
+    ],
+    "fpr": {
+      "nao": 0.0,
+      "nao_marginal": 0.0,
+      "spc_envelope": 0.0
+    },
+    "recall": {
+      "nao": 1.0,
+      "nao_marginal": 1.0,
+      "spc_envelope": 1.0
+    },
+    "median_tau_nao": 0.03867689808210266,
+    "median_tau_spc": 0.05227773480765647
+  },
+  {
+    "circuit": "ghz_14",
+    "qubits": 14,
+    "outcomes": 16384,
+    "shots_per_outcome": 0.25,
+    "tests": 32,
+    "fault_evals": 32,
+    "faults": [
+      "remove_entanglement",
+      "wrong_basis",
+      "extra_x",
+      "drop_last_gate"
+    ],
+    "fpr": {
+      "nao": 0.0,
+      "nao_marginal": 0.0,
+      "spc_envelope": 0.0
+    },
+    "recall": {
+      "nao": 1.0,
+      "nao_marginal": 1.0,
+      "spc_envelope": 1.0
+    },
+    "median_tau_nao": 0.05805296640269783,
+    "median_tau_spc": 0.07348841710627779
+  },
+  {
+    "circuit": "ghz_16",
+    "qubits": 16,
+    "outcomes": 65536,
+    "shots_per_outcome": 0.0625,
+    "tests": 32,
+    "fault_evals": 32,
+    "faults": [
+      "remove_entanglement",
+      "wrong_basis",
+      "extra_x",
+      "drop_last_gate"
+    ],
+    "fpr": {
+      "nao": 0.0,
+      "nao_marginal": 0.0,
+      "spc_envelope": 0.0
+    },
+    "recall": {
+      "nao": 1.0,
+      "nao_marginal": 1.0,
+      "spc_envelope": 1.0
+    },
+    "median_tau_nao": 0.08348937841167353,
+    "median_tau_spc": 0.10081382601712498
+  },
+  {
+    "circuit": "qaoa_8",
+    "qubits": 8,
+    "outcomes": 256,
+    "shots_per_outcome": 16.0,
+    "tests": 32,
+    "fault_evals": 40,
+    "faults": [
+      "remove_entanglement",
+      "wrong_basis",
+      "extra_x",
+      "wrong_angle",
+      "drop_last_gate"
+    ],
+    "fpr": {
+      "nao": 0.0,
+      "nao_marginal": 0.0,
+      "spc_envelope": 0.0
+    },
+    "recall": {
+      "nao": 1.0,
+      "nao_marginal": 1.0,
+      "spc_envelope": 1.0
+    },
+    "median_tau_nao": 0.01715856929019294,
+    "median_tau_spc": 0.030135202399446642
+  },
+  {
+    "circuit": "qaoa_10",
+    "qubits": 10,
+    "outcomes": 1024,
+    "shots_per_outcome": 4.0,
+    "tests": 32,
+    "fault_evals": 40,
+    "faults": [
+      "remove_entanglement",
+      "wrong_basis",
+      "extra_x",
+      "wrong_angle",
+      "drop_last_gate"
+    ],
+    "fpr": {
+      "nao": 0.0,
+      "nao_marginal": 0.0,
+      "spc_envelope": 0.0
+    },
+    "recall": {
+      "nao": 1.0,
+      "nao_marginal": 1.0,
+      "spc_envelope": 0.975
+    },
+    "median_tau_nao": 0.06764797696901986,
+    "median_tau_spc": 0.11616965325884727
+  },
+  {
+    "circuit": "qaoa_12",
+    "qubits": 12,
+    "outcomes": 4096,
+    "shots_per_outcome": 1.0,
+    "tests": 32,
+    "fault_evals": 40,
+    "faults": [
+      "remove_entanglement",
+      "wrong_basis",
+      "extra_x",
+      "wrong_angle",
+      "drop_last_gate"
+    ],
+    "fpr": {
+      "nao": 0.0625,
+      "nao_marginal": 0.0,
+      "spc_envelope": 0.0
+    },
+    "recall": {
+      "nao": 1.0,
+      "nao_marginal": 1.0,
+      "spc_envelope": 0.7
+    },
+    "median_tau_nao": 0.22382321733605778,
+    "median_tau_spc": 0.35603825678912593
+  }
+]

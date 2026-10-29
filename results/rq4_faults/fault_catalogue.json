@@ -1,0 +1,596 @@
+[
+  {
+    "benchmark": "bell",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 1.0,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 1.0,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": true,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": true,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.32436374241381477,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.24024369787678962,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.06609912945744907,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.27868224154830423,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.08736894784949745,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.3376311186359267,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.10032349393997918,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": true,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.057557501898078456,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.1873907740509736,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.43966491340284586,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.08883584650588139,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.02172661290745894,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.045691988427182785,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 1.0,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 1.0,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.14893247534664097,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.17306162538185682,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.07910897005945518,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.18354053815456267,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": false,
+    "basis_invisible": true
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.06891119139543048,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.13618460674453484,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.2034315404160484,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "output_equivalent": true,
+    "unitary_equivalent": true,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.10203032420505734,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.01091411630089362,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.4213872066294125,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.11517738747313375,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.0009998292990665112,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.01722041293023188,
+    "output_equivalent": false,
+    "unitary_equivalent": false,
+    "basis_invisible": false
+  }
+]

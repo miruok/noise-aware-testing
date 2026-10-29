@@ -1,0 +1,102 @@
+[
+  {
+    "id": "aer_664",
+    "path": "Aer/bug_7",
+    "source": "qiskit-aer issue #664",
+    "kind": "measurement mapping",
+    "qubits": 3,
+    "ideal_jsd": 1.0,
+    "observable_zero_input": true,
+    "observable_4_inputs": true
+  },
+  {
+    "id": "so_610_1",
+    "path": "stackoverflow-6-10/bug_1",
+    "source": "Stack Overflow 63283443",
+    "kind": "qubit order",
+    "qubits": 3,
+    "ideal_jsd": 1.0,
+    "observable_zero_input": true,
+    "observable_4_inputs": true
+  },
+  {
+    "id": "so_610_2",
+    "path": "stackoverflow-6-10/bug_2",
+    "source": "Stack Overflow 62661255",
+    "kind": "wrong gate",
+    "qubits": 2,
+    "ideal_jsd": 0.31127812445913283,
+    "observable_zero_input": true,
+    "observable_4_inputs": true
+  },
+  {
+    "id": "so_610_3",
+    "path": "stackoverflow-6-10/bug_3",
+    "source": "Stack Overflow (inverse QFT)",
+    "kind": "wrong subroutine",
+    "qubits": 3,
+    "ideal_jsd": 1.0,
+    "observable_zero_input": true,
+    "observable_4_inputs": true
+  },
+  {
+    "id": "se_9",
+    "path": "StackExchange/9",
+    "source": "Quantum Computing Stack Exchange",
+    "kind": "measurement mapping",
+    "qubits": 3,
+    "ideal_jsd": 1.0,
+    "observable_zero_input": true,
+    "observable_4_inputs": true
+  },
+  {
+    "id": "se_15",
+    "path": "StackExchange/15",
+    "source": "Quantum Computing Stack Exchange",
+    "kind": "wrong subroutine",
+    "qubits": 4,
+    "ideal_jsd": 0.5805338472877271,
+    "observable_zero_input": true,
+    "observable_4_inputs": true
+  },
+  {
+    "id": "terra_5580",
+    "path": "Terra-4001-6000/Bug_5",
+    "source": "qiskit-terra issue #5580",
+    "kind": "qubit order",
+    "qubits": 3,
+    "ideal_jsd": 0.0,
+    "observable_zero_input": false,
+    "observable_4_inputs": false
+  },
+  {
+    "id": "terra_5098",
+    "path": "Terra-0-4000/3",
+    "source": "qiskit-terra issue #5098",
+    "kind": "control state",
+    "qubits": 3,
+    "ideal_jsd": 0.0,
+    "observable_zero_input": false,
+    "observable_4_inputs": true
+  },
+  {
+    "id": "sep_9",
+    "path": "StackExchange-page-1-25/Bug_9",
+    "source": "Quantum Computing Stack Exchange",
+    "kind": "missing gates",
+    "qubits": 4,
+    "ideal_jsd": 0.8285353655857572,
+    "observable_zero_input": true,
+    "observable_4_inputs": true
+  },
+  {
+    "id": "sep_19",
+    "path": "StackExchange-page-1-25/Bug_19",
+    "source": "Quantum Computing Stack Exchange",
+    "kind": "wrong initial state",
+    "qubits": 2,
+    "ideal_jsd": 1.0,
+    "observable_zero_input": true,
+    "observable_4_inputs": true
+  }
+]

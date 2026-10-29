@@ -1,0 +1,17 @@
+RQ4 ABLATION OF THE NOISE-AWARE ORACLE (paired executions; alpha = 1e-3, fixed tau = 0.02)
+
+synthetic: 2250 correct runs, 2500 fault tests, drift flagged in 0.01 of windows
+  A ideal reference, fixed tau                       FPR=0.5987 CI=[0.5542, 0.6453] recall=0.970 precision=0.643 F1=0.773 equivalent rejected=350/800
+  B self-baseline (1 run), fixed tau                 FPR=0.1916 CI=[0.1560, 0.2280] recall=0.838 precision=0.829 F1=0.834 equivalent rejected=127/800
+  C self-baseline (1 run), SPC envelope              FPR=0.0000 CI=[0.0000, 0.0000] recall=0.802 precision=1.000 F1=0.890 equivalent rejected=0/800
+  D self-baseline (1 run), null quantile (NAO-1)     FPR=0.0013 CI=[0.0000, 0.0031] recall=0.878 precision=0.999 F1=0.934 equivalent rejected=0/800
+  E pooled (8 runs), null quantile, no drift test    FPR=0.0009 CI=[0.0000, 0.0022] recall=0.886 precision=0.999 F1=0.939 equivalent rejected=2/800
+  F pooled (8 runs), null quantile, drift test (NAO) FPR=0.0009 CI=[0.0000, 0.0022] recall=0.886 precision=0.999 F1=0.939 equivalent rejected=2/800
+
+snapshots_random_compilation: 750 correct runs, 750 fault tests, drift flagged in 0.21 of windows
+  A ideal reference, fixed tau                       FPR=0.4667 CI=[0.3867, 0.5468] recall=0.988 precision=0.679 F1=0.805 equivalent rejected=90/330
+  B self-baseline (1 run), fixed tau                 FPR=0.0000 CI=[0.0000, 0.0000] recall=0.920 precision=1.000 F1=0.958 equivalent rejected=0/330
+  C self-baseline (1 run), SPC envelope              FPR=0.0000 CI=[0.0000, 0.0000] recall=0.915 precision=1.000 F1=0.955 equivalent rejected=0/330
+  D self-baseline (1 run), null quantile (NAO-1)     FPR=0.0827 CI=[0.0507, 0.1173] recall=0.977 precision=0.922 F1=0.949 equivalent rejected=30/330
+  E pooled (8 runs), null quantile, no drift test    FPR=0.1213 CI=[0.0760, 0.1707] recall=0.979 precision=0.890 F1=0.932 equivalent rejected=40/330
+  F pooled (8 runs), null quantile, drift test (NAO) FPR=0.0093 CI=[0.0013, 0.0227] recall=0.961 precision=0.990 F1=0.976 equivalent rejected=3/330

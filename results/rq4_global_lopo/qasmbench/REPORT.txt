@@ -1,0 +1,10 @@
+RQ4 GLOBAL THRESHOLD, LEAVE-ONE-PROGRAM-OUT (qasmbench, 32 programs)
+  in_sample     FPR=0.1244 recall=0.529 precision=0.812 F1=0.641  programs with FPR > 0.05: 6/32
+  leave_one_out FPR=0.1451 recall=0.532 precision=0.789 F1=0.636  programs with FPR > 0.05: 6/32
+
+By noise level (FPR / recall)
+  very_low  in_sample=0.133/0.939  leave_one_out=0.149/0.938
+  low       in_sample=0.131/0.854  leave_one_out=0.156/0.852
+  medium    in_sample=0.125/0.473  leave_one_out=0.156/0.500
+  high      in_sample=0.125/0.283  leave_one_out=0.125/0.256
+  very_high in_sample=0.108/0.095  leave_one_out=0.140/0.115

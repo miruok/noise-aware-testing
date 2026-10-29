@@ -1,0 +1,214 @@
+{
+  "rungs": {
+    "A": "ideal reference, fixed tau",
+    "B": "self-baseline (1 run), fixed tau",
+    "C": "self-baseline (1 run), SPC envelope",
+    "D": "self-baseline (1 run), null quantile (NAO-1)",
+    "E": "pooled (8 runs), null quantile, no drift test",
+    "F": "pooled (8 runs), null quantile, drift test (NAO)"
+  },
+  "results": {
+    "synthetic": {
+      "A": {
+        "fpr": 0.5986666666666667,
+        "fpr_ci": [
+          0.5542222222222222,
+          0.6453333333333333
+        ],
+        "fp": 1347,
+        "negatives": 2250,
+        "recall": 0.9696,
+        "precision": 0.6428003182179793,
+        "f1": 0.7730824429915484,
+        "equivalent_rejected": [
+          350,
+          800
+        ]
+      },
+      "B": {
+        "fpr": 0.19155555555555556,
+        "fpr_ci": [
+          0.156,
+          0.22801111111111105
+        ],
+        "fp": 431,
+        "negatives": 2250,
+        "recall": 0.8384,
+        "precision": 0.8294420261179264,
+        "f1": 0.8338969564352497,
+        "equivalent_rejected": [
+          127,
+          800
+        ]
+      },
+      "C": {
+        "fpr": 0.0,
+        "fpr_ci": [
+          0.0,
+          0.0
+        ],
+        "fp": 0,
+        "negatives": 2250,
+        "recall": 0.802,
+        "precision": 1.0,
+        "f1": 0.8901220865704773,
+        "equivalent_rejected": [
+          0,
+          800
+        ]
+      },
+      "D": {
+        "fpr": 0.0013333333333333333,
+        "fpr_ci": [
+          0.0,
+          0.003111111111111111
+        ],
+        "fp": 3,
+        "negatives": 2250,
+        "recall": 0.878,
+        "precision": 0.9986351228389445,
+        "f1": 0.9344401873137504,
+        "equivalent_rejected": [
+          0,
+          800
+        ]
+      },
+      "E": {
+        "fpr": 0.0008888888888888889,
+        "fpr_ci": [
+          0.0,
+          0.0022222222222222222
+        ],
+        "fp": 2,
+        "negatives": 2250,
+        "recall": 0.8864,
+        "precision": 0.9990982867448152,
+        "f1": 0.9393810936837642,
+        "equivalent_rejected": [
+          2,
+          800
+        ]
+      },
+      "F": {
+        "fpr": 0.0008888888888888889,
+        "fpr_ci": [
+          0.0,
+          0.0022222222222222222
+        ],
+        "fp": 2,
+        "negatives": 2250,
+        "recall": 0.886,
+        "precision": 0.9990978800180425,
+        "f1": 0.9391562433750266,
+        "equivalent_rejected": [
+          2,
+          800
+        ]
+      },
+      "n_correct": 2250,
+      "n_fault_tests": 2500,
+      "drift_flag_rate": 0.013333333333333334
+    },
+    "snapshots_random_compilation": {
+      "A": {
+        "fpr": 0.4666666666666667,
+        "fpr_ci": [
+          0.38666666666666666,
+          0.5468333333333324
+        ],
+        "fp": 350,
+        "negatives": 750,
+        "recall": 0.988,
+        "precision": 0.6791934005499541,
+        "f1": 0.8049972840847365,
+        "equivalent_rejected": [
+          90,
+          330
+        ]
+      },
+      "B": {
+        "fpr": 0.0,
+        "fpr_ci": [
+          0.0,
+          0.0
+        ],
+        "fp": 0,
+        "negatives": 750,
+        "recall": 0.92,
+        "precision": 1.0,
+        "f1": 0.9583333333333334,
+        "equivalent_rejected": [
+          0,
+          330
+        ]
+      },
+      "C": {
+        "fpr": 0.0,
+        "fpr_ci": [
+          0.0,
+          0.0
+        ],
+        "fp": 0,
+        "negatives": 750,
+        "recall": 0.9146666666666666,
+        "precision": 1.0,
+        "f1": 0.9554317548746517,
+        "equivalent_rejected": [
+          0,
+          330
+        ]
+      },
+      "D": {
+        "fpr": 0.08266666666666667,
+        "fpr_ci": [
+          0.050666666666666665,
+          0.11733333333333333
+        ],
+        "fp": 62,
+        "negatives": 750,
+        "recall": 0.9773333333333334,
+        "precision": 0.9220125786163522,
+        "f1": 0.9488673139158575,
+        "equivalent_rejected": [
+          30,
+          330
+        ]
+      },
+      "E": {
+        "fpr": 0.12133333333333333,
+        "fpr_ci": [
+          0.076,
+          0.17066666666666666
+        ],
+        "fp": 91,
+        "negatives": 750,
+        "recall": 0.9786666666666667,
+        "precision": 0.8896969696969697,
+        "f1": 0.932063492063492,
+        "equivalent_rejected": [
+          40,
+          330
+        ]
+      },
+      "F": {
+        "fpr": 0.009333333333333334,
+        "fpr_ci": [
+          0.0013333333333333333,
+          0.02266666666666667
+        ],
+        "fp": 7,
+        "negatives": 750,
+        "recall": 0.9613333333333334,
+        "precision": 0.9903846153846154,
+        "f1": 0.9756427604871448,
+        "equivalent_rejected": [
+          3,
+          330
+        ]
+      },
+      "n_correct": 750,
+      "n_fault_tests": 750,
+      "drift_flag_rate": 0.20666666666666667
+    }
+  }
+}
