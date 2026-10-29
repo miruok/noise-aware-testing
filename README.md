@@ -9,6 +9,8 @@ Department of Information Technology, National Institute of Technology Srinagar,
 Replication package of the paper *Noise-Aware Testing of NISQ Quantum Programs: Self-Baseline
 Oracle with a Controlled False-Positive Rate* (M. M. Yousuf and S. A. Sofi).
 
+Repository: https://github.com/miruok/noise-aware-testing (the version cited in the paper is release v1.0).
+
 This package contains the implementation, experiment drivers, raw results, tables and
 figures for every research question of the paper, plus the scripts used for the IBM
 Quantum hardware campaigns.
