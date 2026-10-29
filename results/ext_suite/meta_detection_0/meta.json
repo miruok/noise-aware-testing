@@ -1,0 +1,25 @@
+{
+  "config": {
+    "part": "detection",
+    "windows": 10,
+    "B": 3000,
+    "seed": 314,
+    "out": null,
+    "chunk": 0,
+    "chunks": 4,
+    "shots": 4096,
+    "alpha": 0.001,
+    "executions": 10500
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.0",
+    "qiskit_aer": "0.18.0",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "qiskit_ibm_runtime": "0.50.0"
+  },
+  "started": "2026-10-20 15:00:27",
+  "wall_seconds": 3040.1
+}
