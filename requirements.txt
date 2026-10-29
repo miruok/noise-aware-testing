@@ -1,0 +1,8 @@
+# Versions used to produce the published results (Python 3.13)
+qiskit==2.6.0
+qiskit-aer==0.18.0
+qiskit-ibm-runtime==0.50.0   # device snapshots, hardware dry runs and IBM hardware
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+pytest==9.1.1

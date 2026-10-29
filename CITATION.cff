@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Noise-Aware Testing of NISQ Quantum Programs: framework and replication package"
+version: "1.0.0"
+authors:
+  - family-names: Yousuf
+    given-names: Mir Mohammad
+    orcid: "https://orcid.org/0009-0001-7453-3358"
+    affiliation: "National Institute of Technology Srinagar"
+  - family-names: Sofi
+    given-names: Shabir Ahmad
+    orcid: "https://orcid.org/0000-0002-8740-2875"
+    affiliation: "National Institute of Technology Srinagar"
+license: MIT
