@@ -1,0 +1,434 @@
+[
+  {
+    "benchmark": "bell",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "bell",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 21,
+    "rate": 0.42
+  },
+  {
+    "benchmark": "bell",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "bell",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "bell",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "bell",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 15,
+    "rate": 0.3
+  },
+  {
+    "benchmark": "ghz_3",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "ghz_3",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 22,
+    "rate": 0.44
+  },
+  {
+    "benchmark": "ghz_3",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "ghz_3",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "ghz_3",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "ghz_3",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 10,
+    "rate": 0.2
+  },
+  {
+    "benchmark": "qft_3",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qft_3",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qft_3",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qft_3",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qft_3",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qft_3",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qaoa_3",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qaoa_3",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 17,
+    "rate": 0.34
+  },
+  {
+    "benchmark": "qaoa_3",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qaoa_3",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 17,
+    "rate": 0.34
+  },
+  {
+    "benchmark": "qaoa_3",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qaoa_3",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 18,
+    "rate": 0.36
+  },
+  {
+    "benchmark": "vqe_3",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "vqe_3",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 10,
+    "rate": 0.2
+  },
+  {
+    "benchmark": "vqe_3",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "vqe_3",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 28,
+    "rate": 0.56
+  },
+  {
+    "benchmark": "vqe_3",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "vqe_3",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 0,
+    "rate": 0.0
+  },
+  {
+    "benchmark": "bell_8",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "bell_8",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 21,
+    "rate": 0.42
+  },
+  {
+    "benchmark": "bell_8",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "bell_8",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "bell_8",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "bell_8",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 2,
+    "rate": 0.04
+  },
+  {
+    "benchmark": "ghz_8",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "ghz_8",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 21,
+    "rate": 0.42
+  },
+  {
+    "benchmark": "ghz_8",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "ghz_8",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "ghz_8",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "ghz_8",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 2,
+    "rate": 0.04
+  },
+  {
+    "benchmark": "qaoa_8",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qaoa_8",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 24,
+    "rate": 0.48
+  },
+  {
+    "benchmark": "qaoa_8",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qaoa_8",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 16,
+    "rate": 0.32
+  },
+  {
+    "benchmark": "qaoa_8",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "qaoa_8",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 19,
+    "rate": 0.38
+  },
+  {
+    "benchmark": "hwe_6",
+    "operator": "insert_cnot",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "hwe_6",
+    "operator": "insert_cnot",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 6,
+    "rate": 0.12
+  },
+  {
+    "benchmark": "hwe_6",
+    "operator": "insert_t",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "hwe_6",
+    "operator": "insert_t",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 17,
+    "rate": 0.34
+  },
+  {
+    "benchmark": "hwe_6",
+    "operator": "insert_x",
+    "placement": "after_measurement",
+    "draws": 50,
+    "equivalent": 50,
+    "rate": 1.0
+  },
+  {
+    "benchmark": "hwe_6",
+    "operator": "insert_x",
+    "placement": "before_measurement",
+    "draws": 50,
+    "equivalent": 0,
+    "rate": 0.0
+  }
+]

@@ -1,0 +1,188 @@
+{
+  "all_cases": {
+    "n": 1062,
+    "n_bug": 582,
+    "n_noise": 480,
+    "zne_linear": {
+      "accuracy": 0.9199623352165726,
+      "kappa": 0.8389927549415153,
+      "bug_precision": 0.9413854351687388,
+      "bug_recall": 0.9106529209621993,
+      "noise_recall": 0.93125,
+      "confusion": {
+        "tp": 530,
+        "fp": 33,
+        "fn": 52,
+        "tn": 447
+      },
+      "by_noise": {
+        "low": 0.96045197740113,
+        "medium": 0.9661016949152542,
+        "high": 0.8333333333333334
+      },
+      "by_case_type": {
+        "injected_fault": 0.9545454545454546,
+        "noise_amplifying": 0.8888888888888888,
+        "noise_neutral": 0.9777777777777777,
+        "semantic_additive": 0.875,
+        "semantic_subtractive": 0.9259259259259259,
+        "unmodified": 1.0
+      }
+    },
+    "zne_quadratic": {
+      "accuracy": 0.9152542372881356,
+      "kappa": 0.8302321120276233,
+      "bug_precision": 0.9555555555555556,
+      "bug_recall": 0.8865979381443299,
+      "noise_recall": 0.95,
+      "confusion": {
+        "tp": 516,
+        "fp": 24,
+        "fn": 66,
+        "tn": 456
+      },
+      "by_noise": {
+        "low": 0.96045197740113,
+        "medium": 0.9463276836158192,
+        "high": 0.8389830508474576
+      },
+      "by_case_type": {
+        "injected_fault": 0.9393939393939394,
+        "noise_amplifying": 0.9296296296296296,
+        "noise_neutral": 0.9629629629629629,
+        "semantic_additive": 0.8379629629629629,
+        "semantic_subtractive": 0.9120370370370371,
+        "unmodified": 1.0
+      }
+    },
+    "reexecution_triage": {
+      "accuracy": 0.8267419962335216,
+      "kappa": 0.6616241376444185,
+      "bug_precision": 1.0,
+      "bug_recall": 0.6838487972508591,
+      "noise_recall": 1.0,
+      "confusion": {
+        "tp": 398,
+        "fp": 0,
+        "fn": 184,
+        "tn": 480
+      },
+      "by_noise": {
+        "low": 0.8248587570621468,
+        "medium": 0.827683615819209,
+        "high": 0.827683615819209
+      },
+      "by_case_type": {
+        "injected_fault": 0.8434343434343434,
+        "noise_amplifying": 1.0,
+        "noise_neutral": 1.0,
+        "semantic_additive": 0.6111111111111112,
+        "semantic_subtractive": 0.6805555555555556,
+        "unmodified": 1.0
+      }
+    }
+  },
+  "triggered_only": {
+    "n": 597,
+    "n_bug": 543,
+    "n_noise": 54,
+    "zne_linear": {
+      "accuracy": 0.932998324958124,
+      "kappa": 0.5636921727691293,
+      "bug_precision": 0.956442831215971,
+      "bug_recall": 0.9705340699815838,
+      "noise_recall": 0.5555555555555556,
+      "confusion": {
+        "tp": 527,
+        "fp": 24,
+        "fn": 16,
+        "tn": 30
+      },
+      "by_noise": {
+        "low": 0.9848484848484849,
+        "medium": 0.9760765550239234,
+        "high": 0.8315789473684211
+      },
+      "by_case_type": {
+        "injected_fault": 0.9929577464788732,
+        "noise_amplifying": 0.5555555555555556,
+        "semantic_additive": 0.9489795918367347,
+        "semantic_subtractive": 0.975609756097561
+      }
+    },
+    "zne_quadratic": {
+      "accuracy": 0.9246231155778895,
+      "kappa": 0.5987723464312918,
+      "bug_precision": 0.973384030418251,
+      "bug_recall": 0.9429097605893186,
+      "noise_recall": 0.7407407407407407,
+      "confusion": {
+        "tp": 512,
+        "fp": 14,
+        "fn": 31,
+        "tn": 40
+      },
+      "by_noise": {
+        "low": 0.9646464646464646,
+        "medium": 0.9617224880382775,
+        "high": 0.8421052631578947
+      },
+      "by_case_type": {
+        "injected_fault": 0.971830985915493,
+        "noise_amplifying": 0.7407407407407407,
+        "semantic_additive": 0.9132653061224489,
+        "semantic_subtractive": 0.9512195121951219
+      }
+    },
+    "reexecution_triage": {
+      "accuracy": 0.7537688442211056,
+      "kappa": 0.3276563469626973,
+      "bug_precision": 1.0,
+      "bug_recall": 0.7292817679558011,
+      "noise_recall": 1.0,
+      "confusion": {
+        "tp": 396,
+        "fp": 0,
+        "fn": 147,
+        "tn": 54
+      },
+      "by_noise": {
+        "low": 0.7121212121212122,
+        "medium": 0.7368421052631579,
+        "high": 0.8157894736842105
+      },
+      "by_case_type": {
+        "injected_fault": 0.823943661971831,
+        "noise_amplifying": 1.0,
+        "semantic_additive": 0.673469387755102,
+        "semantic_subtractive": 0.7170731707317073
+      }
+    }
+  },
+  "trigger": {
+    "injected_fault": {
+      "triggered": 142,
+      "n": 198
+    },
+    "noise_amplifying": {
+      "triggered": 54,
+      "n": 270
+    },
+    "noise_neutral": {
+      "triggered": 0,
+      "n": 135
+    },
+    "semantic_additive": {
+      "triggered": 196,
+      "n": 216
+    },
+    "semantic_subtractive": {
+      "triggered": 205,
+      "n": 216
+    },
+    "unmodified": {
+      "triggered": 0,
+      "n": 27
+    }
+  }
+}

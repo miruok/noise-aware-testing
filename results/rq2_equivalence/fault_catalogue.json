@@ -1,0 +1,626 @@
+[
+  {
+    "benchmark": "bell",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "wrong_angle",
+    "applicable": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 1.0,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "wrong_target",
+    "applicable": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "wrong_angle",
+    "applicable": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 1.0,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_3",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "wrong_target",
+    "applicable": false
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "qft_3",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.32436374241381477,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.24024369787678962,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.06609912945744907,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.27868224154830423,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.08736894784949745,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_3",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.3376311186359267,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.10032349393997918,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.057557501898078456,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.1873907740509736,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.43966491340284586,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.08883584650588139,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.02172661290745894,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "vqe_3",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.045691988427182785,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "wrong_angle",
+    "applicable": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 1.0,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "bell_8",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.31127812445913283,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "wrong_angle",
+    "applicable": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 1.0,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.5,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "ghz_8",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.14893247534664097,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.17306162538185682,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.07910897005945518,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.18354053815456267,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": true,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.06891119139543048,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "qaoa_8",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.13618460674453484,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "remove_entanglement",
+    "applicable": true,
+    "ideal_jsd": 0.2034315404160484,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "wrong_basis",
+    "applicable": true,
+    "ideal_jsd": 0.0,
+    "equivalent_zero_input": true,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": true
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "swap_qubits",
+    "applicable": true,
+    "ideal_jsd": 0.10203032420505734,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "wrong_angle",
+    "applicable": true,
+    "ideal_jsd": 0.01091411630089362,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "extra_x",
+    "applicable": true,
+    "ideal_jsd": 0.4213872066294125,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "wrong_target",
+    "applicable": true,
+    "ideal_jsd": 0.11517738747313375,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "drop_last_gate",
+    "applicable": true,
+    "ideal_jsd": 0.0009998292990665112,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  },
+  {
+    "benchmark": "hwe_6",
+    "injector": "phase_flip",
+    "applicable": true,
+    "ideal_jsd": 0.01722041293023188,
+    "equivalent_zero_input": false,
+    "unitary_changed_output_unchanged": false,
+    "equivalent_multi_input": false
+  }
+]

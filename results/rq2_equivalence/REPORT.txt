@@ -1,0 +1,37 @@
+RQ2 EQUIVALENCE CENSUS
+
+(a) Equivalence census (fraction of raw draws equivalent)
+  noise_amplifying|cx_pair                      draws=  900  |0>=1.000  4 inputs=1.000
+  noise_amplifying|inverse_pair_1q              draws=  900  |0>=1.000  4 inputs=1.000
+  noise_amplifying|rotation_pair                draws=  900  |0>=1.000  4 inputs=1.000
+  noise_neutral|commute_swap                    draws=  500  |0>=1.000  4 inputs=1.000
+  noise_neutral|cx_to_h_cz_h                    draws=  800  |0>=1.000  4 inputs=1.000
+  semantic_additive|insert_cnot                 draws=  900  |0>=0.481  4 inputs=0.209
+  semantic_additive|insert_rotation             draws=  900  |0>=0.282  4 inputs=0.267
+  semantic_additive|insert_t                    draws=  900  |0>=0.697  4 inputs=0.697
+  semantic_additive|insert_x                    draws=  900  |0>=0.243  4 inputs=0.243
+  semantic_subtractive|remove_1q_gate           draws=  900  |0>=0.000  4 inputs=0.000
+  semantic_subtractive|remove_gate              draws=  900  |0>=0.097  4 inputs=0.066
+  semantic_subtractive|rotation_to_identity     draws=  400  |0>=0.000  4 inputs=0.000
+
+(b) Faults: 16/66 applicable injections equivalent on |0...0> (12 change the unitary but not the output); 12 remain equivalent over 4 inputs
+    bell     phase_flip           multi-input equivalent=True
+    ghz_3    phase_flip           multi-input equivalent=True
+    qft_3    remove_entanglement  multi-input equivalent=True
+    qft_3    swap_qubits          multi-input equivalent=True
+    qft_3    wrong_angle          multi-input equivalent=True
+    qft_3    extra_x              multi-input equivalent=True
+    qft_3    drop_last_gate       multi-input equivalent=True
+    qft_3    phase_flip           multi-input equivalent=True
+    qaoa_3   swap_qubits          multi-input equivalent=False
+    qaoa_3   wrong_target         multi-input equivalent=False
+    vqe_3    wrong_basis          multi-input equivalent=True
+    bell_8   phase_flip           multi-input equivalent=True
+    ghz_8    phase_flip           multi-input equivalent=True
+    qaoa_8   swap_qubits          multi-input equivalent=False
+    qaoa_8   wrong_target         multi-input equivalent=False
+    hwe_6    wrong_basis          multi-input equivalent=True
+
+(c) Placement ablation (insert CX / T / X)
+  after_measurement    equivalent 1350/1350 = 1.000
+  before_measurement   equivalent 636/1350 = 0.471

@@ -1,0 +1,236 @@
+{
+  "synthetic": {
+    "all_cases": {
+      "n": 1062,
+      "n_bug": 582,
+      "n_noise": 480,
+      "linear": {
+        "accuracy": 0.9274952919020716,
+        "kappa": 0.8542524408893072,
+        "bug_precision": 0.9516994633273703,
+        "bug_recall": 0.9140893470790378,
+        "noise_recall": 0.94375,
+        "confusion": {
+          "tp": 532,
+          "fp": 27,
+          "fn": 50,
+          "tn": 453
+        },
+        "by_noise": {
+          "high": 0.8531073446327684,
+          "low": 0.9745762711864406,
+          "medium": 0.9548022598870056
+        }
+      },
+      "quadratic": {
+        "accuracy": 0.9171374764595104,
+        "kappa": 0.8340648570332808,
+        "bug_precision": 0.9591078066914498,
+        "bug_recall": 0.8865979381443299,
+        "noise_recall": 0.9541666666666667,
+        "confusion": {
+          "tp": 516,
+          "fp": 22,
+          "fn": 66,
+          "tn": 458
+        },
+        "by_noise": {
+          "high": 0.8361581920903954,
+          "low": 0.96045197740113,
+          "medium": 0.9548022598870056
+        }
+      },
+      "exponential": {
+        "accuracy": 0.9124293785310734,
+        "kappa": 0.8235180598887137,
+        "bug_precision": 0.9267015706806283,
+        "bug_recall": 0.9123711340206185,
+        "noise_recall": 0.9125,
+        "confusion": {
+          "tp": 531,
+          "fp": 42,
+          "fn": 51,
+          "tn": 438
+        },
+        "by_noise": {
+          "high": 0.8361581920903954,
+          "low": 0.9661016949152542,
+          "medium": 0.9350282485875706
+        }
+      }
+    },
+    "triggered_only": {
+      "n": 603,
+      "n_bug": 545,
+      "n_noise": 58,
+      "linear": {
+        "accuracy": 0.9320066334991708,
+        "kappa": 0.5932713662910255,
+        "bug_precision": 0.9581818181818181,
+        "bug_recall": 0.9669724770642202,
+        "noise_recall": 0.603448275862069,
+        "confusion": {
+          "tp": 527,
+          "fp": 23,
+          "fn": 18,
+          "tn": 35
+        },
+        "by_noise": {
+          "high": 0.8481675392670157,
+          "low": 0.9800995024875622,
+          "medium": 0.9620853080568721
+        }
+      },
+      "quadratic": {
+        "accuracy": 0.9237147595356551,
+        "kappa": 0.6146750757091657,
+        "bug_precision": 0.9734345351043643,
+        "bug_recall": 0.9412844036697248,
+        "noise_recall": 0.7586206896551724,
+        "confusion": {
+          "tp": 513,
+          "fp": 14,
+          "fn": 32,
+          "tn": 44
+        },
+        "by_noise": {
+          "high": 0.837696335078534,
+          "low": 0.9701492537313433,
+          "medium": 0.957345971563981
+        }
+      },
+      "exponential": {
+        "accuracy": 0.9154228855721394,
+        "kappa": 0.47731869401907,
+        "bug_precision": 0.9458483754512635,
+        "bug_recall": 0.9614678899082569,
+        "noise_recall": 0.48275862068965514,
+        "confusion": {
+          "tp": 524,
+          "fp": 30,
+          "fn": 21,
+          "tn": 28
+        },
+        "by_noise": {
+          "high": 0.8324607329842932,
+          "low": 0.9751243781094527,
+          "medium": 0.933649289099526
+        }
+      }
+    }
+  },
+  "snapshot": {
+    "all_cases": {
+      "n": 392,
+      "n_bug": 210,
+      "n_noise": 182,
+      "linear": {
+        "accuracy": 0.9591836734693877,
+        "kappa": 0.9180687637161667,
+        "bug_precision": 0.970873786407767,
+        "bug_recall": 0.9523809523809523,
+        "noise_recall": 0.967032967032967,
+        "confusion": {
+          "tp": 200,
+          "fp": 6,
+          "fn": 10,
+          "tn": 176
+        },
+        "by_noise": {
+          "fake_lagos": 0.9540816326530612,
+          "fake_manila": 0.9642857142857143
+        }
+      },
+      "quadratic": {
+        "accuracy": 0.9413265306122449,
+        "kappa": 0.8827812158718603,
+        "bug_precision": 0.9844559585492227,
+        "bug_recall": 0.9047619047619048,
+        "noise_recall": 0.9835164835164835,
+        "confusion": {
+          "tp": 190,
+          "fp": 3,
+          "fn": 20,
+          "tn": 179
+        },
+        "by_noise": {
+          "fake_lagos": 0.9081632653061225,
+          "fake_manila": 0.9744897959183674
+        }
+      },
+      "exponential": {
+        "accuracy": 0.9617346938775511,
+        "kappa": 0.9231613611416027,
+        "bug_precision": 0.9710144927536232,
+        "bug_recall": 0.9571428571428572,
+        "noise_recall": 0.967032967032967,
+        "confusion": {
+          "tp": 201,
+          "fp": 6,
+          "fn": 9,
+          "tn": 176
+        },
+        "by_noise": {
+          "fake_lagos": 0.9540816326530612,
+          "fake_manila": 0.9693877551020408
+        }
+      }
+    },
+    "triggered_only": {
+      "n": 203,
+      "n_bug": 200,
+      "n_noise": 3,
+      "linear": {
+        "accuracy": 0.9802955665024631,
+        "kappa": -0.0074441687344969495,
+        "bug_precision": 0.9851485148514851,
+        "bug_recall": 0.995,
+        "noise_recall": 0.0,
+        "confusion": {
+          "tp": 199,
+          "fp": 3,
+          "fn": 1,
+          "tn": 0
+        },
+        "by_noise": {
+          "fake_lagos": 0.97,
+          "fake_manila": 0.9902912621359223
+        }
+      },
+      "quadratic": {
+        "accuracy": 0.9408866995073891,
+        "kappa": 0.12247838616714556,
+        "bug_precision": 0.9895833333333334,
+        "bug_recall": 0.95,
+        "noise_recall": 0.33333333333333337,
+        "confusion": {
+          "tp": 190,
+          "fp": 2,
+          "fn": 10,
+          "tn": 1
+        },
+        "by_noise": {
+          "fake_lagos": 0.89,
+          "fake_manila": 0.9902912621359223
+        }
+      },
+      "exponential": {
+        "accuracy": 0.9802955665024631,
+        "kappa": -0.0074441687344969495,
+        "bug_precision": 0.9851485148514851,
+        "bug_recall": 0.995,
+        "noise_recall": 0.0,
+        "confusion": {
+          "tp": 199,
+          "fp": 3,
+          "fn": 1,
+          "tn": 0
+        },
+        "by_noise": {
+          "fake_lagos": 0.97,
+          "fake_manila": 0.9902912621359223
+        }
+      }
+    }
+  }
+}

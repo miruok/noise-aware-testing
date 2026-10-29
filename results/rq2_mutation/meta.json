@@ -1,0 +1,22 @@
+{
+  "config": {
+    "per_family": 15,
+    "seed": 42,
+    "B": 3000,
+    "out": null,
+    "shots": 4096,
+    "alpha": 0.001,
+    "executions": 1998
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.0",
+    "qiskit_aer": "0.18.0",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "qiskit_ibm_runtime": "0.50.0"
+  },
+  "started": "2026-10-20 12:17:12",
+  "wall_seconds": 124.8
+}
