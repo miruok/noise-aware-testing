@@ -1,0 +1,23 @@
+{
+  "config": {
+    "windows": 200,
+    "B": 2000,
+    "seed": 4242,
+    "shape": "flat",
+    "out": null,
+    "shots": 4096,
+    "K": 8,
+    "tests_per_window": 5
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.0",
+    "qiskit_aer": "0.18.0",
+    "platform": "Linux-6.18.44-fc-v139-x86_64-with-glibc2.39",
+    "qiskit_ibm_runtime": "0.50.0"
+  },
+  "started": "2026-10-21 06:25:30",
+  "wall_seconds": 3801.4
+}

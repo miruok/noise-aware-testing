@@ -1,0 +1,16 @@
+RQ1-Real: Validation on real IBM Quantum hardware
+======================================================================
+backend: ibm_fez (156 qubits)
+shots: 4096, trials per oracle: 3
+wall time: 419.2s
+
+benchmark  oracle         tau             FPR   trials
+----------------------------------------------------------------------
+bell       noise_aware    -             0.000        3
+bell       fixed          0.005         1.000        3
+bell       fixed          0.050         0.000        3
+bell       fixed          0.100         0.000        3
+ghz_3      noise_aware    -             0.000        3
+ghz_3      fixed          0.005         1.000        3
+ghz_3      fixed          0.050         0.000        3
+ghz_3      fixed          0.100         0.000        3

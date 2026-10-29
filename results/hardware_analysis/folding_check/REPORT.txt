@@ -1,0 +1,55 @@
+FOLDING CHECK on ibm_kingston ISA circuits: s = 3 versus s = 1 (47 pairs)
+two-qubit gate ratio: min 2.40, median 3.00, max 3.00; exactly 3 in 44 of 45 pairs with two-qubit gates
+first-order error-budget ratio: min 2.41, median 3.00, max 3.03
+
+  HM bell    P   reference              2q   1 ->   3  1q   3 ->   9  budget ratio 3.00
+  HM bell    T0  insert_cnot            2q   0 ->   0  1q   1 ->   3  budget ratio 3.00
+  HM bell    T1  remove_gate            2q   0 ->   0  1q   1 ->   3  budget ratio 3.00
+  HM bell    T2  cx_pair                2q   3 ->   9  1q   7 ->  21  budget ratio 3.00
+  HM bell    T3  cx_pair                2q   3 ->   9  1q   7 ->  21  budget ratio 3.00
+  HM ghz_3   P   reference              2q   2 ->   6  1q   5 ->  15  budget ratio 3.00
+  HM ghz_3   T0  insert_x               2q   2 ->   6  1q   5 ->  15  budget ratio 3.00
+  HM ghz_3   T1  remove_gate            2q   2 ->   6  1q   4 ->  12  budget ratio 3.00
+  HM ghz_3   T2  cx_pair                2q  10 ->  24  1q  19 ->  47  budget ratio 2.41
+  HM ghz_3   T3  cx_pair                2q   7 ->  21  1q  15 ->  44  budget ratio 2.99
+  HM qaoa_3  P   reference              2q   9 ->  27  1q  20 ->  58  budget ratio 2.98
+  HM qaoa_3  T0  insert_t               2q   9 ->  27  1q  22 ->  64  budget ratio 2.98
+  HM qaoa_3  T1  remove_gate            2q   9 ->  27  1q  19 ->  55  budget ratio 2.98
+  HM qaoa_3  T2  cx_pair                2q  11 ->  33  1q  25 ->  76  budget ratio 3.01
+  HM qaoa_3  T3  cx_pair                2q  11 ->  33  1q  26 ->  76  budget ratio 2.98
+  HM qft_3   P   reference              2q  12 ->  36  1q  23 ->  72  budget ratio 3.02
+  HM qft_3   T0  insert_rotation        2q  12 ->  36  1q  23 ->  73  budget ratio 3.03
+  HM qft_3   T1  remove_1q_gate         2q  12 ->  36  1q  24 ->  73  budget ratio 3.01
+  HM qft_3   T2  cx_pair                2q  14 ->  42  1q  27 ->  84  budget ratio 3.02
+  HM qft_3   T3  cx_pair                2q  14 ->  42  1q  27 ->  84  budget ratio 3.02
+  HM vqe_3   P   reference              2q   2 ->   6  1q  13 ->  39  budget ratio 3.00
+  HM vqe_3   T0  insert_rotation        2q   2 ->   6  1q  13 ->  39  budget ratio 3.00
+  HM vqe_3   T1  remove_gate            2q   2 ->   6  1q  12 ->  36  budget ratio 3.00
+  HM vqe_3   T2  cx_pair                2q   7 ->  21  1q  22 ->  66  budget ratio 3.00
+  HM vqe_3   T3  cx_pair                2q   4 ->  12  1q  18 ->  54  budget ratio 3.00
+  H3 ghz_3   P   reference              2q   2 ->   6  1q   5 ->  15  budget ratio 3.00
+  H3 ghz_3   T0  cx_pair                2q   7 ->  21  1q  15 ->  45  budget ratio 3.00
+  H3 ghz_3   T1  cx_pair                2q   4 ->  12  1q   9 ->  27  budget ratio 3.00
+  H3 ghz_3   T2  cx_pair                2q   4 ->  12  1q   9 ->  27  budget ratio 3.00
+  H3 ghz_3   T3  cx_pair                2q   4 ->  12  1q   9 ->  27  budget ratio 3.00
+  H3 ghz_3   T4  rotation_pair          2q   2 ->   6  1q   9 ->  27  budget ratio 3.00
+  H3 ghz_3   T5  insert_x               2q   2 ->   6  1q   6 ->  18  budget ratio 3.00
+  H3 ghz_3   T6  insert_x               2q   2 ->   6  1q   5 ->  15  budget ratio 3.00
+  H3 ghz_3   T7  insert_cnot            2q   3 ->   9  1q   5 ->  15  budget ratio 3.00
+  H3 ghz_3   T8  remove_gate            2q   1 ->   3  1q   3 ->   9  budget ratio 3.00
+  H3 ghz_3   T9  remove_gate            2q   2 ->   6  1q   4 ->  12  budget ratio 3.00
+  H3 qaoa_3  P   reference              2q   9 ->  27  1q  20 ->  58  budget ratio 2.98
+  H3 qaoa_3  T0  cx_pair                2q  11 ->  33  1q  24 ->  72  budget ratio 3.00
+  H3 qaoa_3  T1  cx_pair                2q  11 ->  33  1q  27 ->  80  budget ratio 2.99
+  H3 qaoa_3  T2  cx_pair                2q  11 ->  33  1q  24 ->  70  budget ratio 2.98
+  H3 qaoa_3  T3  cx_pair                2q  11 ->  33  1q  24 ->  70  budget ratio 2.98
+  H3 qaoa_3  T4  rotation_pair          2q   9 ->  27  1q  24 ->  70  budget ratio 2.98
+  H3 qaoa_3  T5  insert_rotation        2q   9 ->  27  1q  20 ->  58  budget ratio 2.98
+  H3 qaoa_3  T6  insert_t               2q   9 ->  27  1q  20 ->  59  budget ratio 2.99
+  H3 qaoa_3  T7  insert_x               2q   9 ->  27  1q  20 ->  58  budget ratio 2.98
+  H3 qaoa_3  T8  remove_1q_gate         2q   9 ->  27  1q  20 ->  58  budget ratio 2.98
+  H3 qaoa_3  T9  remove_1q_gate         2q   9 ->  27  1q  19 ->  55  budget ratio 2.98
+
+H1 semantics-preserving mutants: physical operations added after compilation
+  noise_amplifying: 16 of 18 add physical operations
+  noise_neutral: 0 of 12 add physical operations

@@ -1,0 +1,75 @@
+RQ1 SOUNDNESS: 9 benchmarks x 5 noise levels x 40 windows x 5 tests
+
+oracle               FP/tests      FPR     95% CI (cluster)  windows w/ FP
+nao1_a0.01         126/9000     0.0140   [0.0112, 0.0170]    103/1800
+nao_a0.01           87/9000     0.0097   [0.0078, 0.0117]     86/1800
+nao1_a0.001         11/9000     0.0012   [0.0006, 0.0021]     10/1800
+nao_a0.001          10/9000     0.0011   [0.0004, 0.0018]     10/1800
+spc_envelope         3/9000     0.0003   [0.0000, 0.0008]      3/1800
+fixed_0.005       6630/9000     0.7367   [0.7158, 0.7558]   1379/1800
+fixed_0.01        5886/9000     0.6540   [0.6317, 0.6750]   1215/1800
+fixed_0.02        5391/9000     0.5990   [0.5760, 0.6213]   1084/1800
+fixed_0.05        3611/9000     0.4012   [0.3784, 0.4238]    731/1800
+fixed_0.1         3200/9000     0.3556   [0.3333, 0.3778]    640/1800
+qoin_style         800/9000     0.0889   [0.0761, 0.1028]    160/1800
+
+FPR by noise level
+oracle             very_low        low     medium       high  very_high
+nao1_a0.01           0.0078     0.0139     0.0211     0.0167     0.0106
+nao_a0.01            0.0100     0.0083     0.0100     0.0122     0.0078
+nao1_a0.001          0.0006     0.0017     0.0028     0.0011     0.0000
+nao_a0.001           0.0011     0.0006     0.0022     0.0006     0.0011
+spc_envelope         0.0000     0.0000     0.0006     0.0006     0.0006
+fixed_0.005          0.4828     0.5817     0.8411     0.8889     0.8889
+fixed_0.01           0.3344     0.3800     0.7778     0.8889     0.8889
+fixed_0.02           0.1128     0.3333     0.7711     0.8889     0.8889
+fixed_0.05           0.0000     0.0000     0.3372     0.7800     0.8889
+fixed_0.1            0.0000     0.0000     0.2222     0.6667     0.8889
+qoin_style           0.0000     0.0000     0.0000     0.2222     0.2222
+
+Median thresholds (alpha = 1e-3)
+  bell|very_low      NAO-1=0.0015 chi2=0.0014 NAO=0.0009 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=1.08
+  bell|low           NAO-1=0.0015 chi2=0.0014 NAO=0.0009 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.84
+  bell|medium        NAO-1=0.0014 chi2=0.0014 NAO=0.0008 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=1.06
+  bell|high          NAO-1=0.0015 chi2=0.0014 NAO=0.0008 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.97
+  bell|very_high     NAO-1=0.0014 chi2=0.0014 NAO=0.0008 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.025 dispersion=0.99
+  ghz_3|very_low     NAO-1=0.0022 chi2=0.0021 NAO=0.0014 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.94
+  ghz_3|low          NAO-1=0.0022 chi2=0.0021 NAO=0.0013 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=1.08
+  ghz_3|medium       NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.050 dispersion=0.98
+  ghz_3|high         NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.025 dispersion=0.98
+  ghz_3|very_high    NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.93
+  qft_3|very_low     NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.025 dispersion=1.02
+  qft_3|low          NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=1.01
+  qft_3|medium       NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.94
+  qft_3|high         NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.050 dispersion=1.02
+  qft_3|very_high    NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.96
+  qaoa_3|very_low    NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=1.00
+  qaoa_3|low         NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=1.03
+  qaoa_3|medium      NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.93
+  qaoa_3|high        NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=1.02
+  qaoa_3|very_high   NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.050 dispersion=1.06
+  vqe_3|very_low     NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.98
+  vqe_3|low          NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=1.06
+  vqe_3|medium       NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.050 dispersion=0.96
+  vqe_3|high         NAO-1=0.0022 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.96
+  vqe_3|very_high    NAO-1=0.0021 chi2=0.0021 NAO=0.0012 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.96
+  bell_8|very_low    NAO-1=0.0056 chi2=0.0053 NAO=0.0039 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.90
+  bell_8|low         NAO-1=0.0070 chi2=0.0074 NAO=0.0051 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.82
+  bell_8|medium      NAO-1=0.0191 chi2=0.0176 NAO=0.0120 SPC=0.0200 SPC_floor_bound=0.70  drift_flag_rate=0.000 dispersion=0.98
+  bell_8|high        NAO-1=0.0305 chi2=0.0279 NAO=0.0182 SPC=0.0324 SPC_floor_bound=0.00  drift_flag_rate=0.025 dispersion=1.01
+  bell_8|very_high   NAO-1=0.0300 chi2=0.0291 NAO=0.0170 SPC=0.0307 SPC_floor_bound=0.00  drift_flag_rate=0.000 dispersion=0.99
+  ghz_8|very_low     NAO-1=0.0057 chi2=0.0051 NAO=0.0039 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.025 dispersion=0.93
+  ghz_8|low          NAO-1=0.0071 chi2=0.0078 NAO=0.0050 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.025 dispersion=0.88
+  ghz_8|medium       NAO-1=0.0184 chi2=0.0170 NAO=0.0121 SPC=0.0200 SPC_floor_bound=0.85  drift_flag_rate=0.025 dispersion=0.97
+  ghz_8|high         NAO-1=0.0306 chi2=0.0284 NAO=0.0182 SPC=0.0323 SPC_floor_bound=0.00  drift_flag_rate=0.025 dispersion=1.02
+  ghz_8|very_high    NAO-1=0.0300 chi2=0.0291 NAO=0.0170 SPC=0.0306 SPC_floor_bound=0.00  drift_flag_rate=0.000 dispersion=1.00
+  qaoa_8|very_low    NAO-1=0.0305 chi2=0.0288 NAO=0.0179 SPC=0.0316 SPC_floor_bound=0.00  drift_flag_rate=0.000 dispersion=1.00
+  qaoa_8|low         NAO-1=0.0307 chi2=0.0289 NAO=0.0178 SPC=0.0316 SPC_floor_bound=0.00  drift_flag_rate=0.000 dispersion=0.99
+  qaoa_8|medium      NAO-1=0.0302 chi2=0.0291 NAO=0.0172 SPC=0.0308 SPC_floor_bound=0.00  drift_flag_rate=0.000 dispersion=0.98
+  qaoa_8|high        NAO-1=0.0298 chi2=0.0291 NAO=0.0169 SPC=0.0304 SPC_floor_bound=0.00  drift_flag_rate=0.000 dispersion=1.00
+  qaoa_8|very_high   NAO-1=0.0298 chi2=0.0291 NAO=0.0168 SPC=0.0305 SPC_floor_bound=0.00  drift_flag_rate=0.025 dispersion=1.00
+  hwe_6|very_low     NAO-1=0.0094 chi2=0.0091 NAO=0.0054 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.98
+  hwe_6|low          NAO-1=0.0094 chi2=0.0091 NAO=0.0054 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.050 dispersion=0.98
+  hwe_6|medium       NAO-1=0.0092 chi2=0.0091 NAO=0.0052 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.025 dispersion=1.01
+  hwe_6|high         NAO-1=0.0092 chi2=0.0091 NAO=0.0052 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.99
+  hwe_6|very_high    NAO-1=0.0092 chi2=0.0091 NAO=0.0052 SPC=0.0200 SPC_floor_bound=1.00  drift_flag_rate=0.000 dispersion=0.99
