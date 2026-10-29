@@ -1,0 +1,65 @@
+threshold very_low 0.1279
+threshold low 0.1809
+threshold medium 0.397
+threshold high 0.7361
+threshold very_high 0.9439
+bell very_low
+bell low
+bell medium
+bell high
+bell very_high
+ghz_3 very_low
+ghz_3 low
+ghz_3 medium
+ghz_3 high
+ghz_3 very_high
+qft_3 very_low
+qft_3 low
+qft_3 medium
+qft_3 high
+qft_3 very_high
+qaoa_3 very_low
+qaoa_3 low
+qaoa_3 medium
+qaoa_3 high
+qaoa_3 very_high
+vqe_3 very_low
+vqe_3 low
+vqe_3 medium
+vqe_3 high
+vqe_3 very_high
+bell_8 very_low
+bell_8 low
+bell_8 medium
+bell_8 high
+bell_8 very_high
+ghz_8 very_low
+ghz_8 low
+ghz_8 medium
+ghz_8 high
+ghz_8 very_high
+qaoa_8 very_low
+qaoa_8 low
+qaoa_8 medium
+qaoa_8 high
+qaoa_8 very_high
+hwe_6 very_low
+hwe_6 low
+hwe_6 medium
+hwe_6 high
+hwe_6 very_high
+RQ4 NOISE-CALIBRATED GLOBAL THRESHOLD (after Fortz et al.) VS NAO, paired executions
+
+Thresholds (JS distance to exact ideal): very_low=0.1279  low=0.1809  medium=0.3970  high=0.7361  very_high=0.9439
+
+  nao               TP=2220 FN=280 FP=1 TN=1349 recall=0.888 precision=1.000 F1=0.940 FPR=0.0007 equivalent rejected=0/800
+  noise_calibrated  TP=1505 FN=995 FP=146 TN=1204 recall=0.602 precision=0.912 F1=0.725 FPR=0.1081 equivalent rejected=49/800
+
+By noise level (FPR / recall)
+  nao               very_low=0.000/0.980  low=0.000/0.980  medium=0.000/0.980  high=0.004/0.890  very_high=0.000/0.610
+  noise_calibrated  very_low=0.111/0.962  low=0.107/0.920  medium=0.115/0.620  high=0.111/0.280  very_high=0.096/0.228
+
+FPR by benchmark
+  nao               bell=0.000  ghz_3=0.000  qft_3=0.000  qaoa_3=0.000  vqe_3=0.000  bell_8=0.000  ghz_8=0.000  qaoa_8=0.007  hwe_6=0.000
+  noise_calibrated  bell=0.000  ghz_3=0.000  qft_3=0.000  qaoa_3=0.000  vqe_3=0.000  bell_8=0.473  ghz_8=0.500  qaoa_8=0.000  hwe_6=0.000
+

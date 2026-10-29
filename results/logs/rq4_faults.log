@@ -1,0 +1,105 @@
+power validation done
+bell     very_low  done
+bell     low       done
+bell     medium    done
+bell     high      done
+bell     very_high done
+ghz_3    very_low  done
+ghz_3    low       done
+ghz_3    medium    done
+ghz_3    high      done
+ghz_3    very_high done
+qft_3    very_low  done
+qft_3    low       done
+qft_3    medium    done
+qft_3    high      done
+qft_3    very_high done
+qaoa_3   very_low  done
+qaoa_3   low       done
+qaoa_3   medium    done
+qaoa_3   high      done
+qaoa_3   very_high done
+vqe_3    very_low  done
+vqe_3    low       done
+vqe_3    medium    done
+vqe_3    high      done
+vqe_3    very_high done
+bell_8   very_low  done
+bell_8   low       done
+bell_8   medium    done
+bell_8   high      done
+bell_8   very_high done
+ghz_8    very_low  done
+ghz_8    low       done
+ghz_8    medium    done
+ghz_8    high      done
+ghz_8    very_high done
+qaoa_8   very_low  done
+qaoa_8   low       done
+qaoa_8   medium    done
+qaoa_8   high      done
+qaoa_8   very_high done
+hwe_6    very_low  done
+hwe_6    low       done
+hwe_6    medium    done
+hwe_6    high      done
+hwe_6    very_high done
+RQ3 FAULT DETECTION
+
+Confusion (faults = non-equivalent injections; negatives = correct runs)
+oracle            TP    FN    FP    TN   recall  precision      F1      FPR
+nao             2221   279     2  1348    0.888      0.999   0.941   0.0015
+nao1            2192   308     1  1349    0.877      1.000   0.934   0.0007
+spc_envelope    2004   496     0  1350    0.802      1.000   0.890   0.0000
+fixed_0.01      2462    38   886   464    0.985      0.735   0.842   0.6563
+fixed_0.02      2431    69   803   547    0.972      0.752   0.848   0.5948
+fixed_0.05      2303   197   544   806    0.921      0.809   0.861   0.4030
+fixed_0.1       2115   385   480   870    0.846      0.815   0.830   0.3556
+
+Recall by noise level
+oracle           very_low        low     medium       high  very_high
+nao                 0.980      0.980      0.980      0.900      0.602
+nao1                0.980      0.980      0.976      0.864      0.584
+spc_envelope        0.950      0.934      0.922      0.704      0.498
+fixed_0.01          0.980      0.984      1.000      0.980      0.980
+fixed_0.02          0.954      0.960      0.988      0.980      0.980
+fixed_0.05          0.898      0.898      0.888      0.942      0.980
+fixed_0.1           0.778      0.776      0.794      0.902      0.980
+
+Recall by injector
+  nao            drop_last_gate=0.79(n=400)  extra_x=0.93(n=400)  phase_flip=0.78(n=200)  remove_entanglement=0.93(n=400)  swap_qubits=0.97(n=300)  wrong_angle=0.77(n=200)  wrong_basis=0.92(n=350)  wrong_target=0.96(n=250)
+  nao1           drop_last_gate=0.78(n=400)  extra_x=0.91(n=400)  phase_flip=0.73(n=200)  remove_entanglement=0.93(n=400)  swap_qubits=0.97(n=300)  wrong_angle=0.76(n=200)  wrong_basis=0.91(n=350)  wrong_target=0.96(n=250)
+  spc_envelope   drop_last_gate=0.69(n=400)  extra_x=0.86(n=400)  phase_flip=0.54(n=200)  remove_entanglement=0.93(n=400)  swap_qubits=0.90(n=300)  wrong_angle=0.55(n=200)  wrong_basis=0.86(n=350)  wrong_target=0.91(n=250)
+  fixed_0.01     drop_last_gate=0.95(n=400)  extra_x=1.00(n=400)  phase_flip=1.00(n=200)  remove_entanglement=1.00(n=400)  swap_qubits=1.00(n=300)  wrong_angle=1.00(n=200)  wrong_basis=0.94(n=350)  wrong_target=1.00(n=250)
+  fixed_0.02     drop_last_gate=0.92(n=400)  extra_x=1.00(n=400)  phase_flip=0.99(n=200)  remove_entanglement=1.00(n=400)  swap_qubits=1.00(n=300)  wrong_angle=0.92(n=200)  wrong_basis=0.94(n=350)  wrong_target=1.00(n=250)
+  fixed_0.05     drop_last_gate=0.83(n=400)  extra_x=1.00(n=400)  phase_flip=0.66(n=200)  remove_entanglement=1.00(n=400)  swap_qubits=0.97(n=300)  wrong_angle=0.85(n=200)  wrong_basis=0.94(n=350)  wrong_target=1.00(n=250)
+  fixed_0.1      drop_last_gate=0.70(n=400)  extra_x=1.00(n=400)  phase_flip=0.65(n=200)  remove_entanglement=0.97(n=400)  swap_qubits=0.87(n=300)  wrong_angle=0.61(n=200)  wrong_basis=0.92(n=350)  wrong_target=0.85(n=250)
+
+Equivalent injections rejected
+  nao            1/800
+  nao1           1/800
+  spc_envelope   0/800
+  fixed_0.01     375/800
+  fixed_0.02     349/800
+  fixed_0.05     231/800
+  fixed_0.1      200/800
+
+Predicted vs observed recall
+  nao1   bin 0.0-0.1 n= 270 predicted=0.008 observed=0.015
+  nao    bin 0.0-0.1 n= 240 predicted=0.016 observed=0.008
+  nao1   bin 0.1-0.2 n=  20 predicted=0.146 observed=0.150
+  nao    bin 0.1-0.2 n=  30 predicted=0.126 observed=0.167
+  nao1   bin 0.4-0.5 n=  20 predicted=0.447 observed=0.250
+  nao    bin 0.5-0.6 n=  20 predicted=0.582 observed=0.400
+  nao1   bin 0.6-0.7 n=  10 predicted=0.687 observed=0.700
+  nao1   bin 0.8-0.9 n=  20 predicted=0.851 observed=0.850
+  nao    bin 0.8-0.9 n=  10 predicted=0.889 observed=0.700
+  nao1   bin 0.9-1.0 n=2160 predicted=0.999 observed=0.998
+  nao    bin 0.9-1.0 n=2200 predicted=1.000 observed=1.000
+
+Minimum detectable JSD at 4096 shots, 80% power, alpha 1e-3
+  d=   4 NAO-1=0.00190 NAO(K=8)=0.00107
+  d=  16 NAO-1=0.00297 NAO(K=8)=0.00167
+  d=  64 NAO-1=0.00497 NAO(K=8)=0.00280
+  d= 256 NAO-1=0.00891 NAO(K=8)=0.00501
+

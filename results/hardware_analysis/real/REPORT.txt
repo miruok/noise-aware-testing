@@ -1,0 +1,170 @@
+HARDWARE ANALYSIS (real hardware)
+
+H1 mutation campaign
+  ibm_kingston ghz_3     tau_NAO=0.0012 drift=False dispersion=0.75
+     nao      FPR=0.00 (n=10) recall=1.00 (n=26) by family: semantic_additive=1.00, semantic_subtractive=1.00, noise_amplifying=0.17, noise_neutral=0.00, injected_fault=1.00
+     nao1     FPR=0.00 (n=10) recall=1.00 (n=26) by family: semantic_additive=1.00, semantic_subtractive=1.00, noise_amplifying=0.00, noise_neutral=0.00, injected_fault=1.00
+  ibm_kingston qaoa_3    tau_NAO=0.0013 drift=False dispersion=1.11
+     nao      FPR=0.00 (n=10) recall=1.00 (n=26) by family: semantic_additive=1.00, semantic_subtractive=1.00, noise_amplifying=0.00, noise_neutral=0.00, injected_fault=1.00
+     nao1     FPR=0.00 (n=10) recall=1.00 (n=26) by family: semantic_additive=1.00, semantic_subtractive=1.00, noise_amplifying=0.00, noise_neutral=0.00, injected_fault=1.00
+  ibm_kingston bell_8    tau_NAO=0.0073 drift=False dispersion=1.02
+     nao      FPR=0.00 (n=10) recall=1.00 (n=26) by family: semantic_additive=1.00, semantic_subtractive=1.00, noise_amplifying=0.50, noise_neutral=0.00, injected_fault=1.00
+     nao1     FPR=0.00 (n=10) recall=1.00 (n=26) by family: semantic_additive=1.00, semantic_subtractive=1.00, noise_amplifying=0.50, noise_neutral=0.00, injected_fault=1.00
+
+H2 drift sessions
+  20261022_144107 ghz_3     homogeneity_p=0.688 dispersion=1.00 drift=False
+  20261022_144107 qaoa_3    homogeneity_p=0.68 dispersion=0.92 drift=False
+  20261022_163052 ghz_3     homogeneity_p=0.506 dispersion=0.95 drift=False
+  20261022_163052 qaoa_3    homogeneity_p=0.489 dispersion=1.01 drift=False
+  20261022_193116 ghz_3     homogeneity_p=0.581 dispersion=0.91 drift=False
+  20261022_193116 qaoa_3    homogeneity_p=0.487 dispersion=1.03 drift=False
+  20261022_223208 ghz_3     homogeneity_p=0.244 dispersion=1.22 drift=False
+  20261022_223208 qaoa_3    homogeneity_p=0.31 dispersion=1.10 drift=False
+  20261023_080649 ghz_3     homogeneity_p=0.271 dispersion=1.12 drift=False
+  20261023_080649 qaoa_3    homogeneity_p=0.121 dispersion=1.30 drift=False
+  20261023_110144 ghz_3     homogeneity_p=0.798 dispersion=0.83 drift=False
+  20261023_110144 qaoa_3    homogeneity_p=0.27 dispersion=1.09 drift=False
+  20261023_140822 ghz_3     homogeneity_p=0.522 dispersion=0.93 drift=False
+  20261023_140822 qaoa_3    homogeneity_p=0.998 dispersion=0.52 drift=False
+  20261023_170051 ghz_3     homogeneity_p=0.611 dispersion=0.94 drift=False
+  20261023_170051 qaoa_3    homogeneity_p=0.989 dispersion=0.61 drift=False
+  calibrated 20261022_144107 -> tested 20261022_163052 (1.83 h) ghz_3     FPR=0.00
+  calibrated 20261022_144107 -> tested 20261022_163052 (1.83 h) qaoa_3    FPR=0.00
+  calibrated 20261022_144107 -> tested 20261022_193116 (4.84 h) ghz_3     FPR=0.50
+  calibrated 20261022_144107 -> tested 20261022_193116 (4.84 h) qaoa_3    FPR=0.00
+  calibrated 20261022_144107 -> tested 20261022_223208 (7.85 h) ghz_3     FPR=0.00
+  calibrated 20261022_144107 -> tested 20261022_223208 (7.85 h) qaoa_3    FPR=0.00
+  calibrated 20261022_144107 -> tested 20261023_080649 (17.43 h) ghz_3     FPR=0.12
+  calibrated 20261022_144107 -> tested 20261023_080649 (17.43 h) qaoa_3    FPR=0.00
+  calibrated 20261022_144107 -> tested 20261023_110144 (20.34 h) ghz_3     FPR=1.00
+  calibrated 20261022_144107 -> tested 20261023_110144 (20.34 h) qaoa_3    FPR=0.12
+  calibrated 20261022_144107 -> tested 20261023_140822 (23.45 h) ghz_3     FPR=0.62
+  calibrated 20261022_144107 -> tested 20261023_140822 (23.45 h) qaoa_3    FPR=0.00
+  calibrated 20261022_144107 -> tested 20261023_170051 (26.33 h) ghz_3     FPR=1.00
+  calibrated 20261022_144107 -> tested 20261023_170051 (26.33 h) qaoa_3    FPR=0.00
+  calibrated 20261022_163052 -> tested 20261022_144107 (-1.83 h) ghz_3     FPR=0.00
+  calibrated 20261022_163052 -> tested 20261022_144107 (-1.83 h) qaoa_3    FPR=0.00
+  calibrated 20261022_163052 -> tested 20261022_193116 (3.01 h) ghz_3     FPR=0.25
+  calibrated 20261022_163052 -> tested 20261022_193116 (3.01 h) qaoa_3    FPR=0.00
+  calibrated 20261022_163052 -> tested 20261022_223208 (6.02 h) ghz_3     FPR=0.00
+  calibrated 20261022_163052 -> tested 20261022_223208 (6.02 h) qaoa_3    FPR=0.12
+  calibrated 20261022_163052 -> tested 20261023_080649 (15.6 h) ghz_3     FPR=0.00
+  calibrated 20261022_163052 -> tested 20261023_080649 (15.6 h) qaoa_3    FPR=0.00
+  calibrated 20261022_163052 -> tested 20261023_110144 (18.51 h) ghz_3     FPR=1.00
+  calibrated 20261022_163052 -> tested 20261023_110144 (18.51 h) qaoa_3    FPR=0.12
+  calibrated 20261022_163052 -> tested 20261023_140822 (21.62 h) ghz_3     FPR=0.38
+  calibrated 20261022_163052 -> tested 20261023_140822 (21.62 h) qaoa_3    FPR=0.00
+  calibrated 20261022_163052 -> tested 20261023_170051 (24.5 h) ghz_3     FPR=1.00
+  calibrated 20261022_163052 -> tested 20261023_170051 (24.5 h) qaoa_3    FPR=0.00
+  calibrated 20261022_193116 -> tested 20261022_144107 (-4.84 h) ghz_3     FPR=0.75
+  calibrated 20261022_193116 -> tested 20261022_144107 (-4.84 h) qaoa_3    FPR=0.00
+  calibrated 20261022_193116 -> tested 20261022_163052 (-3.01 h) ghz_3     FPR=0.12
+  calibrated 20261022_193116 -> tested 20261022_163052 (-3.01 h) qaoa_3    FPR=0.00
+  calibrated 20261022_193116 -> tested 20261022_223208 (3.01 h) ghz_3     FPR=0.75
+  calibrated 20261022_193116 -> tested 20261022_223208 (3.01 h) qaoa_3    FPR=0.00
+  calibrated 20261022_193116 -> tested 20261023_080649 (12.59 h) ghz_3     FPR=0.62
+  calibrated 20261022_193116 -> tested 20261023_080649 (12.59 h) qaoa_3    FPR=0.12
+  calibrated 20261022_193116 -> tested 20261023_110144 (15.51 h) ghz_3     FPR=0.50
+  calibrated 20261022_193116 -> tested 20261023_110144 (15.51 h) qaoa_3    FPR=0.25
+  calibrated 20261022_193116 -> tested 20261023_140822 (18.62 h) ghz_3     FPR=0.00
+  calibrated 20261022_193116 -> tested 20261023_140822 (18.62 h) qaoa_3    FPR=0.25
+  calibrated 20261022_193116 -> tested 20261023_170051 (21.49 h) ghz_3     FPR=0.12
+  calibrated 20261022_193116 -> tested 20261023_170051 (21.49 h) qaoa_3    FPR=0.00
+  calibrated 20261022_223208 -> tested 20261022_144107 (-7.85 h) ghz_3     FPR=0.00
+  calibrated 20261022_223208 -> tested 20261022_144107 (-7.85 h) qaoa_3    FPR=0.00
+  calibrated 20261022_223208 -> tested 20261022_163052 (-6.02 h) ghz_3     FPR=0.00
+  calibrated 20261022_223208 -> tested 20261022_163052 (-6.02 h) qaoa_3    FPR=0.00
+  calibrated 20261022_223208 -> tested 20261022_193116 (-3.01 h) ghz_3     FPR=0.62
+  calibrated 20261022_223208 -> tested 20261022_193116 (-3.01 h) qaoa_3    FPR=0.12
+  calibrated 20261022_223208 -> tested 20261023_080649 (9.58 h) ghz_3     FPR=0.00
+  calibrated 20261022_223208 -> tested 20261023_080649 (9.58 h) qaoa_3    FPR=0.00
+  calibrated 20261022_223208 -> tested 20261023_110144 (12.49 h) ghz_3     FPR=1.00
+  calibrated 20261022_223208 -> tested 20261023_110144 (12.49 h) qaoa_3    FPR=0.12
+  calibrated 20261022_223208 -> tested 20261023_140822 (15.6 h) ghz_3     FPR=1.00
+  calibrated 20261022_223208 -> tested 20261023_140822 (15.6 h) qaoa_3    FPR=0.00
+  calibrated 20261022_223208 -> tested 20261023_170051 (18.48 h) ghz_3     FPR=1.00
+  calibrated 20261022_223208 -> tested 20261023_170051 (18.48 h) qaoa_3    FPR=0.00
+  calibrated 20261023_080649 -> tested 20261022_144107 (-17.43 h) ghz_3     FPR=0.12
+  calibrated 20261023_080649 -> tested 20261022_144107 (-17.43 h) qaoa_3    FPR=0.00
+  calibrated 20261023_080649 -> tested 20261022_163052 (-15.6 h) ghz_3     FPR=0.00
+  calibrated 20261023_080649 -> tested 20261022_163052 (-15.6 h) qaoa_3    FPR=0.00
+  calibrated 20261023_080649 -> tested 20261022_193116 (-12.59 h) ghz_3     FPR=0.38
+  calibrated 20261023_080649 -> tested 20261022_193116 (-12.59 h) qaoa_3    FPR=0.12
+  calibrated 20261023_080649 -> tested 20261022_223208 (-9.58 h) ghz_3     FPR=0.00
+  calibrated 20261023_080649 -> tested 20261022_223208 (-9.58 h) qaoa_3    FPR=0.00
+  calibrated 20261023_080649 -> tested 20261023_110144 (2.92 h) ghz_3     FPR=1.00
+  calibrated 20261023_080649 -> tested 20261023_110144 (2.92 h) qaoa_3    FPR=0.00
+  calibrated 20261023_080649 -> tested 20261023_140822 (6.03 h) ghz_3     FPR=1.00
+  calibrated 20261023_080649 -> tested 20261023_140822 (6.03 h) qaoa_3    FPR=0.00
+  calibrated 20261023_080649 -> tested 20261023_170051 (8.9 h) ghz_3     FPR=1.00
+  calibrated 20261023_080649 -> tested 20261023_170051 (8.9 h) qaoa_3    FPR=0.00
+  calibrated 20261023_110144 -> tested 20261022_144107 (-20.34 h) ghz_3     FPR=1.00
+  calibrated 20261023_110144 -> tested 20261022_144107 (-20.34 h) qaoa_3    FPR=0.00
+  calibrated 20261023_110144 -> tested 20261022_163052 (-18.51 h) ghz_3     FPR=1.00
+  calibrated 20261023_110144 -> tested 20261022_163052 (-18.51 h) qaoa_3    FPR=0.00
+  calibrated 20261023_110144 -> tested 20261022_193116 (-15.51 h) ghz_3     FPR=0.75
+  calibrated 20261023_110144 -> tested 20261022_193116 (-15.51 h) qaoa_3    FPR=0.12
+  calibrated 20261023_110144 -> tested 20261022_223208 (-12.49 h) ghz_3     FPR=1.00
+  calibrated 20261023_110144 -> tested 20261022_223208 (-12.49 h) qaoa_3    FPR=0.12
+  calibrated 20261023_110144 -> tested 20261023_080649 (-2.92 h) ghz_3     FPR=1.00
+  calibrated 20261023_110144 -> tested 20261023_080649 (-2.92 h) qaoa_3    FPR=0.00
+  calibrated 20261023_110144 -> tested 20261023_140822 (3.11 h) ghz_3     FPR=0.12
+  calibrated 20261023_110144 -> tested 20261023_140822 (3.11 h) qaoa_3    FPR=0.00
+  calibrated 20261023_110144 -> tested 20261023_170051 (5.99 h) ghz_3     FPR=0.00
+  calibrated 20261023_110144 -> tested 20261023_170051 (5.99 h) qaoa_3    FPR=0.00
+  calibrated 20261023_140822 -> tested 20261022_144107 (-23.45 h) ghz_3     FPR=1.00
+  calibrated 20261023_140822 -> tested 20261022_144107 (-23.45 h) qaoa_3    FPR=0.00
+  calibrated 20261023_140822 -> tested 20261022_163052 (-21.62 h) ghz_3     FPR=0.62
+  calibrated 20261023_140822 -> tested 20261022_163052 (-21.62 h) qaoa_3    FPR=0.00
+  calibrated 20261023_140822 -> tested 20261022_193116 (-18.62 h) ghz_3     FPR=0.00
+  calibrated 20261023_140822 -> tested 20261022_193116 (-18.62 h) qaoa_3    FPR=0.12
+  calibrated 20261023_140822 -> tested 20261022_223208 (-15.6 h) ghz_3     FPR=1.00
+  calibrated 20261023_140822 -> tested 20261022_223208 (-15.6 h) qaoa_3    FPR=0.12
+  calibrated 20261023_140822 -> tested 20261023_080649 (-6.03 h) ghz_3     FPR=0.88
+  calibrated 20261023_140822 -> tested 20261023_080649 (-6.03 h) qaoa_3    FPR=0.00
+  calibrated 20261023_140822 -> tested 20261023_110144 (-3.11 h) ghz_3     FPR=0.12
+  calibrated 20261023_140822 -> tested 20261023_110144 (-3.11 h) qaoa_3    FPR=0.00
+  calibrated 20261023_140822 -> tested 20261023_170051 (2.87 h) ghz_3     FPR=0.12
+  calibrated 20261023_140822 -> tested 20261023_170051 (2.87 h) qaoa_3    FPR=0.00
+  calibrated 20261023_170051 -> tested 20261022_144107 (-26.33 h) ghz_3     FPR=1.00
+  calibrated 20261023_170051 -> tested 20261022_144107 (-26.33 h) qaoa_3    FPR=0.00
+  calibrated 20261023_170051 -> tested 20261022_163052 (-24.5 h) ghz_3     FPR=1.00
+  calibrated 20261023_170051 -> tested 20261022_163052 (-24.5 h) qaoa_3    FPR=0.00
+  calibrated 20261023_170051 -> tested 20261022_193116 (-21.49 h) ghz_3     FPR=0.38
+  calibrated 20261023_170051 -> tested 20261022_193116 (-21.49 h) qaoa_3    FPR=0.00
+  calibrated 20261023_170051 -> tested 20261022_223208 (-18.48 h) ghz_3     FPR=1.00
+  calibrated 20261023_170051 -> tested 20261022_223208 (-18.48 h) qaoa_3    FPR=0.00
+  calibrated 20261023_170051 -> tested 20261023_080649 (-8.9 h) ghz_3     FPR=1.00
+  calibrated 20261023_170051 -> tested 20261023_080649 (-8.9 h) qaoa_3    FPR=0.00
+  calibrated 20261023_170051 -> tested 20261023_110144 (-5.99 h) ghz_3     FPR=0.00
+  calibrated 20261023_170051 -> tested 20261023_110144 (-5.99 h) qaoa_3    FPR=0.00
+  calibrated 20261023_170051 -> tested 20261023_140822 (-2.87 h) ghz_3     FPR=0.12
+  calibrated 20261023_170051 -> tested 20261023_140822 (-2.87 h) qaoa_3    FPR=0.00
+
+H2 summary (forward pairs; stale calibration judged on the 8 runs of a later session)
+  ghz_3    <6h: FPR=0.344 (8 pairs)  6-12h: FPR=0.400 (5 pairs)  12-24h: FPR=0.567 (13 pairs)  >=24h: FPR=1.000 (2 pairs)  all: FPR=0.504 (28 pairs)
+  qaoa_3   <6h: FPR=0.000 (8 pairs)  6-12h: FPR=0.025 (5 pairs)  12-24h: FPR=0.077 (13 pairs)  >=24h: FPR=0.000 (2 pairs)  all: FPR=0.040 (28 pairs)
+  sentinel (2 runs, alpha_s=1e-2) on 56 pairs: fired on 22 of 27 stale calibrations that produced false positives, and on 9 of 29 that did not; false positives on the protected runs: 92/336 without sentinel, 6 missed by it
+
+H3 attribution
+  ghz_3     T0   noise_amplifying         cx_pair            truth=noise pred=noise r0=0.060 null=0.081
+  ghz_3     T1   noise_amplifying         cx_pair            truth=noise pred=noise r0=0.071 null=0.076
+  ghz_3     T2   noise_amplifying         cx_pair            truth=noise pred=bug   r0=0.097 null=0.073
+  ghz_3     T3   noise_amplifying         cx_pair            truth=noise pred=bug   r0=0.102 null=0.076
+  ghz_3     T4   noise_amplifying         rotation_pair      truth=noise pred=noise r0=0.054 null=0.070
+  ghz_3     T5   semantic_additive        insert_x           truth=bug   pred=bug   r0=0.963 null=0.073
+  ghz_3     T6   semantic_additive        insert_x           truth=bug   pred=bug   r0=0.957 null=0.074
+  ghz_3     T7   semantic_additive        insert_cnot        truth=bug   pred=bug   r0=0.655 null=0.076
+  ghz_3     T8   semantic_subtractive     remove_gate        truth=bug   pred=bug   r0=0.675 null=0.074
+  ghz_3     T9   semantic_subtractive     remove_gate        truth=bug   pred=bug   r0=0.558 null=0.081
+  qaoa_3    T0   noise_amplifying         cx_pair            truth=noise pred=noise r0=0.026 null=0.068
+  qaoa_3    T1   noise_amplifying         cx_pair            truth=noise pred=noise r0=0.031 null=0.068
+  qaoa_3    T2   noise_amplifying         cx_pair            truth=noise pred=noise r0=0.026 null=0.067
+  qaoa_3    T3   noise_amplifying         cx_pair            truth=noise pred=noise r0=0.051 null=0.068
+  qaoa_3    T4   noise_amplifying         rotation_pair      truth=noise pred=noise r0=0.038 null=0.066
+  qaoa_3    T5   semantic_additive        insert_rotation    truth=bug   pred=bug   r0=0.131 null=0.066
+  qaoa_3    T6   semantic_additive        insert_t           truth=bug   pred=bug   r0=0.125 null=0.065
+  qaoa_3    T7   semantic_additive        insert_x           truth=bug   pred=bug   r0=0.480 null=0.065
+  qaoa_3    T8   semantic_subtractive     remove_1q_gate     truth=bug   pred=bug   r0=0.267 null=0.068
+  qaoa_3    T9   semantic_subtractive     remove_1q_gate     truth=bug   pred=bug   r0=0.428 null=0.065
+  accuracy=0.900 kappa=0.800

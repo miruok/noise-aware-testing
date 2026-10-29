@@ -1,0 +1,357 @@
+{
+ "campaign": "h2",
+ "backend": {
+  "name": "ibm_kingston",
+  "num_qubits": 156,
+  "error_rates": {
+   "cz": {
+    "median": 0.0016884027389010292,
+    "n": 352
+   },
+   "sx": {
+    "median": 0.00025026193034199837,
+    "n": 156
+   },
+   "x": {
+    "median": 0.00025026193034199837,
+    "n": 156
+   },
+   "measure": {
+    "median": 0.0093994140625,
+    "n": 156
+   }
+  }
+ },
+ "dry_run": false,
+ "job_id": "dbd42cc24mrc73ckms20",
+ "shots": 4096,
+ "submitted": "20261022_223208",
+ "wall_seconds": 96.7,
+ "estimated_seconds": 17.6,
+ "quantum_seconds": 19.0,
+ "initial_layouts": {
+  "ghz_3": [
+   65,
+   77,
+   64
+  ],
+  "qaoa_3": [
+   36,
+   41,
+   40
+  ],
+  "bell_8": [
+   64,
+   65,
+   66,
+   67,
+   57,
+   47,
+   48,
+   49
+  ]
+ },
+ "items": [
+  {
+   "benchmark": "ghz_3",
+   "role": "calibration",
+   "idx": 0,
+   "truth": "no_fault",
+   "position_in_job": 13,
+   "counts": {
+    "000": 2091,
+    "111": 1897,
+    "101": 31,
+    "100": 11,
+    "110": 29,
+    "010": 21,
+    "011": 16
+   },
+   "isa_depth": 9,
+   "isa_two_qubit_gates": 2
+  },
+  {
+   "benchmark": "ghz_3",
+   "role": "calibration",
+   "idx": 1,
+   "truth": "no_fault",
+   "position_in_job": 14,
+   "counts": {
+    "111": 1974,
+    "101": 30,
+    "000": 1997,
+    "110": 46,
+    "010": 21,
+    "100": 15,
+    "011": 12,
+    "001": 1
+   },
+   "isa_depth": 9,
+   "isa_two_qubit_gates": 2
+  },
+  {
+   "benchmark": "ghz_3",
+   "role": "calibration",
+   "idx": 2,
+   "truth": "no_fault",
+   "position_in_job": 8,
+   "counts": {
+    "111": 1963,
+    "000": 2014,
+    "110": 39,
+    "101": 22,
+    "010": 22,
+    "100": 18,
+    "011": 17,
+    "001": 1
+   },
+   "isa_depth": 9,
+   "isa_two_qubit_gates": 2
+  },
+  {
+   "benchmark": "ghz_3",
+   "role": "calibration",
+   "idx": 3,
+   "truth": "no_fault",
+   "position_in_job": 0,
+   "counts": {
+    "000": 2086,
+    "111": 1897,
+    "010": 22,
+    "110": 34,
+    "011": 19,
+    "101": 25,
+    "100": 11,
+    "001": 2
+   },
+   "isa_depth": 9,
+   "isa_two_qubit_gates": 2
+  },
+  {
+   "benchmark": "ghz_3",
+   "role": "calibration",
+   "idx": 4,
+   "truth": "no_fault",
+   "position_in_job": 15,
+   "counts": {
+    "111": 1937,
+    "000": 2050,
+    "110": 42,
+    "011": 16,
+    "101": 32,
+    "100": 11,
+    "010": 7,
+    "001": 1
+   },
+   "isa_depth": 9,
+   "isa_two_qubit_gates": 2
+  },
+  {
+   "benchmark": "ghz_3",
+   "role": "calibration",
+   "idx": 5,
+   "truth": "no_fault",
+   "position_in_job": 2,
+   "counts": {
+    "111": 1962,
+    "000": 2013,
+    "101": 25,
+    "110": 47,
+    "010": 14,
+    "011": 25,
+    "100": 10
+   },
+   "isa_depth": 9,
+   "isa_two_qubit_gates": 2
+  },
+  {
+   "benchmark": "ghz_3",
+   "role": "calibration",
+   "idx": 6,
+   "truth": "no_fault",
+   "position_in_job": 1,
+   "counts": {
+    "000": 2087,
+    "110": 46,
+    "111": 1876,
+    "101": 35,
+    "010": 19,
+    "011": 24,
+    "100": 8,
+    "001": 1
+   },
+   "isa_depth": 9,
+   "isa_two_qubit_gates": 2
+  },
+  {
+   "benchmark": "ghz_3",
+   "role": "calibration",
+   "idx": 7,
+   "truth": "no_fault",
+   "position_in_job": 7,
+   "counts": {
+    "000": 1998,
+    "111": 1970,
+    "110": 41,
+    "101": 24,
+    "010": 25,
+    "100": 12,
+    "011": 26
+   },
+   "isa_depth": 9,
+   "isa_two_qubit_gates": 2
+  },
+  {
+   "benchmark": "qaoa_3",
+   "role": "calibration",
+   "idx": 0,
+   "truth": "no_fault",
+   "position_in_job": 6,
+   "counts": {
+    "000": 1708,
+    "101": 172,
+    "111": 1608,
+    "011": 118,
+    "010": 129,
+    "100": 138,
+    "001": 120,
+    "110": 103
+   },
+   "isa_depth": 46,
+   "isa_two_qubit_gates": 9
+  },
+  {
+   "benchmark": "qaoa_3",
+   "role": "calibration",
+   "idx": 1,
+   "truth": "no_fault",
+   "position_in_job": 10,
+   "counts": {
+    "100": 125,
+    "000": 1733,
+    "111": 1596,
+    "011": 116,
+    "110": 119,
+    "101": 143,
+    "001": 137,
+    "010": 127
+   },
+   "isa_depth": 46,
+   "isa_two_qubit_gates": 9
+  },
+  {
+   "benchmark": "qaoa_3",
+   "role": "calibration",
+   "idx": 2,
+   "truth": "no_fault",
+   "position_in_job": 4,
+   "counts": {
+    "111": 1597,
+    "011": 115,
+    "000": 1718,
+    "001": 105,
+    "100": 138,
+    "101": 177,
+    "110": 132,
+    "010": 114
+   },
+   "isa_depth": 46,
+   "isa_two_qubit_gates": 9
+  },
+  {
+   "benchmark": "qaoa_3",
+   "role": "calibration",
+   "idx": 3,
+   "truth": "no_fault",
+   "position_in_job": 5,
+   "counts": {
+    "111": 1556,
+    "000": 1642,
+    "011": 141,
+    "101": 191,
+    "110": 119,
+    "100": 165,
+    "001": 140,
+    "010": 142
+   },
+   "isa_depth": 46,
+   "isa_two_qubit_gates": 9
+  },
+  {
+   "benchmark": "qaoa_3",
+   "role": "calibration",
+   "idx": 4,
+   "truth": "no_fault",
+   "position_in_job": 12,
+   "counts": {
+    "100": 152,
+    "111": 1609,
+    "010": 137,
+    "000": 1662,
+    "110": 123,
+    "001": 138,
+    "101": 163,
+    "011": 112
+   },
+   "isa_depth": 46,
+   "isa_two_qubit_gates": 9
+  },
+  {
+   "benchmark": "qaoa_3",
+   "role": "calibration",
+   "idx": 5,
+   "truth": "no_fault",
+   "position_in_job": 11,
+   "counts": {
+    "110": 127,
+    "000": 1693,
+    "100": 146,
+    "111": 1579,
+    "010": 125,
+    "011": 115,
+    "001": 135,
+    "101": 176
+   },
+   "isa_depth": 46,
+   "isa_two_qubit_gates": 9
+  },
+  {
+   "benchmark": "qaoa_3",
+   "role": "calibration",
+   "idx": 6,
+   "truth": "no_fault",
+   "position_in_job": 3,
+   "counts": {
+    "000": 1709,
+    "111": 1592,
+    "101": 155,
+    "001": 156,
+    "011": 132,
+    "010": 119,
+    "110": 110,
+    "100": 123
+   },
+   "isa_depth": 46,
+   "isa_two_qubit_gates": 9
+  },
+  {
+   "benchmark": "qaoa_3",
+   "role": "calibration",
+   "idx": 7,
+   "truth": "no_fault",
+   "position_in_job": 9,
+   "counts": {
+    "001": 144,
+    "111": 1571,
+    "000": 1695,
+    "011": 115,
+    "110": 127,
+    "100": 134,
+    "101": 183,
+    "010": 127
+   },
+   "isa_depth": 46,
+   "isa_two_qubit_gates": 9
+  }
+ ]
+}
