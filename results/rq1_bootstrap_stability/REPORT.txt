@@ -1,4 +1,0 @@
-RQ1 BOOTSTRAP STABILITY at alpha = 0.001 (30 seeds per B; reference null of 400000 pairs)
-  B=  1000: relative sd of tau median 0.107 (max 0.204); conditional FPR mean 0.00101, 5th-95th percentile range over cells [0.00001, 0.00447]
-  B=  4000: relative sd of tau median 0.047 (max 0.079); conditional FPR mean 0.00101, 5th-95th percentile range over cells [0.00017, 0.00237]
-  B= 40000: relative sd of tau median 0.014 (max 0.025); conditional FPR mean 0.00102, 5th-95th percentile range over cells [0.00066, 0.00144]
