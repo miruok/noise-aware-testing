@@ -1,0 +1,124 @@
+TAXONOMY: physical property of semantics-preserving mutants after compilation
+(adds physical ops: more noisy operations than the compiled original)
+
+[core]
+  noise_amplifying synthetic n= 135 adds physical ops  135  adds 2q   52  changes 2q count   52
+      cx_pair                n=  52 adds   52  adds 2q   52  mean d2q +2.00  mean d1q +0.00
+      inverse_pair_1q:s      n=  10 adds   10  adds 2q    0  mean d2q +0.00  mean d1q +2.10
+      inverse_pair_1q:t      n=   8 adds    8  adds 2q    0  mean d2q +0.00  mean d1q +2.00
+      inverse_pair_1q:y      n=  17 adds   17  adds 2q    0  mean d2q +0.00  mean d1q +2.00
+      inverse_pair_1q:z      n=  10 adds   10  adds 2q    0  mean d2q +0.00  mean d1q +2.00
+      rotation_pair          n=  38 adds   38  adds 2q    0  mean d2q +0.00  mean d1q +2.00
+  noise_amplifying cx_native n= 135 adds physical ops  105  adds 2q   50  changes 2q count   51
+      cx_pair                n=  52 adds   50  adds 2q   50  mean d2q +5.44  mean d1q +0.00
+      inverse_pair_1q:s      n=  10 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+      inverse_pair_1q:t      n=   8 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+      inverse_pair_1q:y      n=  17 adds   17  adds 2q    0  mean d2q +0.00  mean d1q +2.00
+      inverse_pair_1q:z      n=  10 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+      rotation_pair          n=  38 adds   38  adds 2q    0  mean d2q +0.00  mean d1q +4.00
+  noise_amplifying cz_native n= 135 adds physical ops  114  adds 2q   52  changes 2q count   52
+      cx_pair                n=  52 adds   52  adds 2q   52  mean d2q +7.42  mean d1q +14.54
+      inverse_pair_1q:s      n=  10 adds    3  adds 2q    0  mean d2q +0.00  mean d1q +0.40
+      inverse_pair_1q:t      n=   8 adds    2  adds 2q    0  mean d2q +0.00  mean d1q +0.25
+      inverse_pair_1q:y      n=  17 adds   17  adds 2q    0  mean d2q +0.00  mean d1q +2.06
+      inverse_pair_1q:z      n=  10 adds    2  adds 2q    0  mean d2q +0.00  mean d1q +0.30
+      rotation_pair          n=  38 adds   38  adds 2q    0  mean d2q +0.00  mean d1q +4.26
+  noise_neutral    synthetic n= 135 adds physical ops   82  adds 2q    0  changes 2q count    0
+      commute_swap           n=  39 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+      cx_to_h_cz_h           n=  96 adds   82  adds 2q    0  mean d2q +0.00  mean d1q +1.41
+  noise_neutral    cx_native n= 135 adds physical ops   12  adds 2q    0  changes 2q count    0
+      commute_swap           n=  39 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+      cx_to_h_cz_h           n=  96 adds   12  adds 2q    0  mean d2q +0.00  mean d1q +0.25
+  noise_neutral    cz_native n= 135 adds physical ops    0  adds 2q    0  changes 2q count    0
+      commute_swap           n=  39 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+      cx_to_h_cz_h           n=  96 adds    0  adds 2q    0  mean d2q +0.00  mean d1q -0.06
+
+[qasmbench]
+  noise_amplifying synthetic n= 480 adds physical ops  480  adds 2q  182  changes 2q count  182
+      cx_pair                n= 182 adds  182  adds 2q  182  mean d2q +2.00  mean d1q +0.41
+      inverse_pair_1q:s      n=  37 adds   37  adds 2q    0  mean d2q +0.00  mean d1q +2.22
+      inverse_pair_1q:t      n=  27 adds   27  adds 2q    0  mean d2q +0.00  mean d1q +2.19
+      inverse_pair_1q:y      n=  59 adds   59  adds 2q    0  mean d2q +0.00  mean d1q +2.20
+      inverse_pair_1q:z      n=  37 adds   37  adds 2q    0  mean d2q +0.00  mean d1q +2.14
+      rotation_pair          n= 138 adds  138  adds 2q    0  mean d2q +0.00  mean d1q +2.19
+  noise_amplifying cx_native n= 480 adds physical ops  390  adds 2q  189  changes 2q count  202
+      cx_pair                n= 182 adds  178  adds 2q  178  mean d2q +5.51  mean d1q +0.37
+      inverse_pair_1q:s      n=  37 adds    7  adds 2q    1  mean d2q +0.00  mean d1q +0.24
+      inverse_pair_1q:t      n=  27 adds    3  adds 2q    1  mean d2q +0.00  mean d1q +0.19
+      inverse_pair_1q:y      n=  59 adds   59  adds 2q    2  mean d2q +0.00  mean d1q +2.22
+      inverse_pair_1q:z      n=  37 adds    5  adds 2q    1  mean d2q +0.00  mean d1q +0.19
+      rotation_pair          n= 138 adds  138  adds 2q    6  mean d2q +0.03  mean d1q +4.23
+  noise_amplifying cz_native n= 480 adds physical ops  408  adds 2q  191  changes 2q count  191
+      cx_pair                n= 182 adds  182  adds 2q  182  mean d2q +7.34  mean d1q +14.85
+      inverse_pair_1q:s      n=  37 adds    7  adds 2q    1  mean d2q +0.32  mean d1q +0.92
+      inverse_pair_1q:t      n=  27 adds   10  adds 2q    1  mean d2q +0.44  mean d1q +1.56
+      inverse_pair_1q:y      n=  59 adds   59  adds 2q    2  mean d2q +0.41  mean d1q +3.15
+      inverse_pair_1q:z      n=  37 adds   12  adds 2q    1  mean d2q +0.32  mean d1q +1.03
+      rotation_pair          n= 138 adds  138  adds 2q    4  mean d2q +0.35  mean d1q +5.02
+  noise_neutral    synthetic n= 480 adds physical ops   91  adds 2q    0  changes 2q count    0
+      commute_swap           n= 189 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+      cx_to_h_cz_h           n= 187 adds   91  adds 2q    0  mean d2q +0.00  mean d1q +0.65
+      x_to_h_z_h             n= 104 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+  noise_neutral    cx_native n= 480 adds physical ops   22  adds 2q   15  changes 2q count   30
+      commute_swap           n= 189 adds    6  adds 2q    6  mean d2q +0.00  mean d1q +0.00
+      cx_to_h_cz_h           n= 187 adds   16  adds 2q    9  mean d2q +0.00  mean d1q +0.08
+      x_to_h_z_h             n= 104 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+  noise_neutral    cz_native n= 480 adds physical ops   30  adds 2q   15  changes 2q count   15
+      commute_swap           n= 189 adds   10  adds 2q    6  mean d2q +0.38  mean d1q +0.85
+      cx_to_h_cz_h           n= 187 adds   13  adds 2q    9  mean d2q +0.58  mean d1q +1.25
+      x_to_h_z_h             n= 104 adds    7  adds 2q    0  mean d2q +0.00  mean d1q +0.07
+
+[all]
+  noise_amplifying synthetic n= 615 adds physical ops  615  adds 2q  234  changes 2q count  234
+      cx_pair                n= 234 adds  234  adds 2q  234  mean d2q +2.00  mean d1q +0.32
+      inverse_pair_1q:s      n=  47 adds   47  adds 2q    0  mean d2q +0.00  mean d1q +2.19
+      inverse_pair_1q:t      n=  35 adds   35  adds 2q    0  mean d2q +0.00  mean d1q +2.14
+      inverse_pair_1q:y      n=  76 adds   76  adds 2q    0  mean d2q +0.00  mean d1q +2.16
+      inverse_pair_1q:z      n=  47 adds   47  adds 2q    0  mean d2q +0.00  mean d1q +2.11
+      rotation_pair          n= 176 adds  176  adds 2q    0  mean d2q +0.00  mean d1q +2.15
+  noise_amplifying cx_native n= 615 adds physical ops  495  adds 2q  239  changes 2q count  253
+      cx_pair                n= 234 adds  228  adds 2q  228  mean d2q +5.49  mean d1q +0.29
+      inverse_pair_1q:s      n=  47 adds    7  adds 2q    1  mean d2q +0.00  mean d1q +0.19
+      inverse_pair_1q:t      n=  35 adds    3  adds 2q    1  mean d2q +0.00  mean d1q +0.14
+      inverse_pair_1q:y      n=  76 adds   76  adds 2q    2  mean d2q +0.00  mean d1q +2.17
+      inverse_pair_1q:z      n=  47 adds    5  adds 2q    1  mean d2q +0.00  mean d1q +0.15
+      rotation_pair          n= 176 adds  176  adds 2q    6  mean d2q +0.02  mean d1q +4.18
+  noise_amplifying cz_native n= 615 adds physical ops  522  adds 2q  243  changes 2q count  243
+      cx_pair                n= 234 adds  234  adds 2q  234  mean d2q +7.36  mean d1q +14.78
+      inverse_pair_1q:s      n=  47 adds   10  adds 2q    1  mean d2q +0.26  mean d1q +0.81
+      inverse_pair_1q:t      n=  35 adds   12  adds 2q    1  mean d2q +0.34  mean d1q +1.26
+      inverse_pair_1q:y      n=  76 adds   76  adds 2q    2  mean d2q +0.32  mean d1q +2.91
+      inverse_pair_1q:z      n=  47 adds   14  adds 2q    1  mean d2q +0.26  mean d1q +0.87
+      rotation_pair          n= 176 adds  176  adds 2q    4  mean d2q +0.27  mean d1q +4.86
+  noise_neutral    synthetic n= 615 adds physical ops  173  adds 2q    0  changes 2q count    0
+      commute_swap           n= 228 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+      cx_to_h_cz_h           n= 283 adds  173  adds 2q    0  mean d2q +0.00  mean d1q +0.91
+      x_to_h_z_h             n= 104 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+  noise_neutral    cx_native n= 615 adds physical ops   34  adds 2q   15  changes 2q count   30
+      commute_swap           n= 228 adds    6  adds 2q    6  mean d2q +0.00  mean d1q +0.00
+      cx_to_h_cz_h           n= 283 adds   28  adds 2q    9  mean d2q +0.00  mean d1q +0.14
+      x_to_h_z_h             n= 104 adds    0  adds 2q    0  mean d2q +0.00  mean d1q +0.00
+  noise_neutral    cz_native n= 615 adds physical ops   30  adds 2q   15  changes 2q count   15
+      commute_swap           n= 228 adds   10  adds 2q    6  mean d2q +0.32  mean d1q +0.70
+      cx_to_h_cz_h           n= 283 adds   13  adds 2q    9  mean d2q +0.38  mean d1q +0.80
+      x_to_h_z_h             n= 104 adds    7  adds 2q    0  mean d2q +0.00  mean d1q +0.07
+
+Rejection under NAO by whether the mutant satisfies its class on the synthetic target
+[core]
+  noise_amplifying_adds_True   n=  405 rejected=84
+  noise_amplifying_adds_False  n=    0 rejected=0
+  noise_neutral_adds_True      n=  246 rejected=2
+  noise_neutral_adds_False     n=  159 rejected=0
+  amplifying vs verified neutral, low   : CMH p=1  sign-flip p=1  cells 0/5/0
+  amplifying vs verified neutral, medium: CMH p=0.0304  sign-flip p=0.5  cells 2/3/0
+  amplifying vs verified neutral, high  : CMH p=0.00479  sign-flip p=0.25  cells 3/2/0
+  amplifying vs verified neutral, pooled: CMH p=0.000142  sign-flip p=0.0625  cells 5/10/0
+[qasmbench]
+  noise_amplifying_adds_True   n= 1425 rejected=224
+  noise_amplifying_adds_False  n=    0 rejected=0
+  noise_neutral_adds_True      n=  273 rejected=2
+  noise_neutral_adds_False     n= 1152 rejected=2
+  amplifying vs verified neutral, low   : CMH p=8.81e-11  sign-flip p=0.00027  cells 13/18/0
+  amplifying vs verified neutral, medium: CMH p=4.19e-19  sign-flip p=1e-05  cells 20/11/0
+  amplifying vs verified neutral, high  : CMH p=4.14e-16  sign-flip p=0.000235  cells 14/15/1
+  amplifying vs verified neutral, pooled: CMH p=1.13e-43  sign-flip p=5e-06  cells 47/44/1

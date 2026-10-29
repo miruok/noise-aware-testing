@@ -1,0 +1,16 @@
+{
+  "config": {
+    "out": null
+  },
+  "environment": {
+    "python": "3.13.16",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "qiskit": "2.6.0",
+    "qiskit_aer": "0.18.0",
+    "platform": "Linux-6.18.44-fc-v153-x86_64-with-glibc2.39",
+    "qiskit_ibm_runtime": "0.50.0"
+  },
+  "started": "2026-10-26 06:44:07",
+  "wall_seconds": 1.7
+}

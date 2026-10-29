@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Scaling to 16 qubits ($\eta = 0.005$, 4096 shots).}
+\label{tab:rq4-scaling}
+\small
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Circuit & Qubits & Shots/outcome & FPR NAO & FPR marg. & FPR SPC & Recall NAO & Recall marg. & Recall SPC \\
+\midrule
+GHZ-8 & 8 & 16.000 & 0.000 & 0.000 & 0.000 & 1.000 & 1.000 & 1.000 \\
+GHZ-10 & 10 & 4.000 & 0.000 & 0.000 & 0.000 & 1.000 & 1.000 & 1.000 \\
+GHZ-12 & 12 & 1.000 & 0.000 & 0.000 & 0.000 & 1.000 & 1.000 & 1.000 \\
+GHZ-14 & 14 & 0.250 & 0.000 & 0.000 & 0.000 & 1.000 & 1.000 & 1.000 \\
+GHZ-16 & 16 & 0.062 & 0.000 & 0.000 & 0.000 & 1.000 & 1.000 & 1.000 \\
+QAOA-8 & 8 & 16.000 & 0.000 & 0.000 & 0.000 & 1.000 & 1.000 & 1.000 \\
+QAOA-10 & 10 & 4.000 & 0.000 & 0.000 & 0.000 & 1.000 & 1.000 & 0.975 \\
+QAOA-12 & 12 & 1.000 & 0.062 & 0.000 & 0.000 & 1.000 & 1.000 & 0.700 \\
+\bottomrule
+\end{tabular}
+\end{table}

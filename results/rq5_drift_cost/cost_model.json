@@ -1,0 +1,36 @@
+{
+  "campaign_executions": [
+    {
+      "M_tests": 10,
+      "NAO-1": 11,
+      "NAO (K=8)": 18,
+      "NAO (K=8) + two-run sentinel every 50 tests": 20,
+      "SPC envelope (K=12)": 23,
+      "QOIN-style (K_c=5)": 16,
+      "fixed threshold": 10
+    },
+    {
+      "M_tests": 100,
+      "NAO-1": 101,
+      "NAO (K=8)": 108,
+      "NAO (K=8) + two-run sentinel every 50 tests": 112,
+      "SPC envelope (K=12)": 113,
+      "QOIN-style (K_c=5)": 106,
+      "fixed threshold": 100
+    },
+    {
+      "M_tests": 1000,
+      "NAO-1": 1001,
+      "NAO (K=8)": 1008,
+      "NAO (K=8) + two-run sentinel every 50 tests": 1048,
+      "SPC envelope (K=12)": 1013,
+      "QOIN-style (K_c=5)": 1006,
+      "fixed threshold": 1000
+    }
+  ],
+  "attribution_executions_per_case": {
+    "zne_linear (s = 1, 3)": 4,
+    "zne_quadratic (s = 1, 3, 5)": 6,
+    "reexecution_triage (simulator)": 6
+  }
+}

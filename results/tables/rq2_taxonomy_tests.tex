@@ -1,0 +1,28 @@
+\begin{table}[t]
+\centering
+\caption{Taxonomy validation. $H_0$: equal rejection probability. Fisher exact test per mutant; Cochran-Mantel-Haenszel test stratified by cell (conditions on the shared calibration window); cell-level sign-flip test. Cliff's $\delta$ on $d/\tau$. Bonferroni over 3 class pairs.}
+\label{tab:rq2-taxonomy}
+\small
+\begin{tabular}{llrrrrrr}
+\toprule
+Noise & Comparison & Rejection rates & Fisher $p$ & CMH $p$ & Cells $>$/$=$/$<$ & Sign-flip $p$ & Cliff's $\delta$ \\
+\midrule
+pooled & Semantic vs Noise-amplifying & 0.938 vs 0.207 & 4.7e-155 & 1.1e-156 & 27/0/0 & 5.0e-06 & 0.91 [0.86, 0.95] \\
+pooled & Semantic vs Noise-neutral & 0.938 vs 0.005 & 2.0e-262 & 3.8e-223 & 27/0/0 & 5.0e-06 & 0.98 [0.96, 0.99] \\
+pooled & Noise-amplifying vs Noise-neutral & 0.207 vs 0.005 & 9.8e-25 & 1.7e-21 & 17/10/0 & 2.5e-05 & 0.24 [0.18, 0.31] \\
+low & Semantic vs Noise-amplifying & 0.978 vs 0.148 & 2.5e-71 & 1.1e-65 & 9/0/0 & 3.9e-03 & 0.98 [0.96, 1.00] \\
+low & Semantic vs Noise-neutral & 0.978 vs 0.000 & 2.6e-101 & 5.2e-82 & 9/0/0 & 3.9e-03 & 0.99 [0.98, 1.00] \\
+low & Noise-amplifying vs Noise-neutral & 0.148 vs 0.000 & 8.9e-07 & 4.3e-06 & 4/5/0 & 1.2e-01 & 0.23 [0.15, 0.34] \\
+medium & Semantic vs Noise-amplifying & 0.974 vs 0.222 & 7.9e-60 & 1.2e-56 & 9/0/0 & 3.9e-03 & 0.94 [0.90, 0.99] \\
+medium & Semantic vs Noise-neutral & 0.974 vs 0.000 & 5.2e-100 & 3.3e-81 & 9/0/0 & 3.9e-03 & 0.99 [0.97, 1.00] \\
+medium & Noise-amplifying vs Noise-neutral & 0.222 vs 0.000 & 3.0e-10 & 8.6e-09 & 6/3/0 & 3.1e-02 & 0.27 [0.15, 0.38] \\
+high & Semantic vs Noise-amplifying & 0.863 vs 0.252 & 1.8e-34 & 3.1e-38 & 9/0/0 & 3.9e-03 & 0.75 [0.67, 0.84] \\
+high & Semantic vs Noise-neutral & 0.863 vs 0.015 & 2.6e-69 & 7.4e-63 & 9/0/0 & 3.9e-03 & 0.94 [0.88, 0.98] \\
+high & Noise-amplifying vs Noise-neutral & 0.252 vs 0.015 & 2.3e-09 & 1.4e-08 & 7/2/0 & 1.6e-02 & 0.25 [0.13, 0.36] \\
+pooled & Additive vs subtractive & 0.921 vs 0.956 & 5.7e-02 & 2.3e-02 & 3/16/8 & 1.5e-01 & -0.06 \\
+low & Additive vs subtractive & 0.978 vs 0.978 & 1.0e+00 & 6.7e-01 & 1/7/1 & 1.0e+00 & -0.04 \\
+medium & Additive vs subtractive & 0.970 vs 0.978 & 1.0e+00 & 1.0e+00 & 1/7/1 & 1.0e+00 & -0.04 \\
+high & Additive vs subtractive & 0.815 vs 0.911 & 3.3e-02 & 8.6e-03 & 1/2/6 & 1.2e-01 & -0.11 \\
+\bottomrule
+\end{tabular}
+\end{table}

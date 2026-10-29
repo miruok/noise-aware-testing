@@ -1,0 +1,93 @@
+(a) RQ1 false-positive rate per core benchmark (95% cluster bootstrap over windows)
+  nao_a0.001
+    bell      0/1000  0.0000  cluster [0.0000, 0.0000]  Wilson [0.0000, 0.0038]  binomial p=0.632
+    ghz_3     2/1000  0.0020  cluster [0.0000, 0.0050]  Wilson [0.0005, 0.0073]  binomial p=0.264
+    qft_3     0/1000  0.0000  cluster [0.0000, 0.0000]  Wilson [0.0000, 0.0038]  binomial p=0.632
+    qaoa_3    1/1000  0.0010  cluster [0.0000, 0.0030]  Wilson [0.0002, 0.0056]  binomial p=1.000
+    vqe_3     1/1000  0.0010  cluster [0.0000, 0.0030]  Wilson [0.0002, 0.0056]  binomial p=1.000
+    bell_8    0/1000  0.0000  cluster [0.0000, 0.0000]  Wilson [0.0000, 0.0038]  binomial p=0.632
+    ghz_8     2/1000  0.0020  cluster [0.0000, 0.0050]  Wilson [0.0005, 0.0073]  binomial p=0.264
+    qaoa_8    3/1000  0.0030  cluster [0.0000, 0.0070]  Wilson [0.0010, 0.0088]  binomial p=0.080
+    hwe_6     1/1000  0.0010  cluster [0.0000, 0.0030]  Wilson [0.0002, 0.0056]  binomial p=1.000
+  nao1_a0.001
+    bell      2/1000  0.0020  cluster [0.0000, 0.0050]  Wilson [0.0005, 0.0073]  binomial p=0.264
+    ghz_3     1/1000  0.0010  cluster [0.0000, 0.0030]  Wilson [0.0002, 0.0056]  binomial p=1.000
+    qft_3     3/1000  0.0030  cluster [0.0000, 0.0070]  Wilson [0.0010, 0.0088]  binomial p=0.080
+    qaoa_3    0/1000  0.0000  cluster [0.0000, 0.0000]  Wilson [0.0000, 0.0038]  binomial p=0.632
+    vqe_3     1/1000  0.0010  cluster [0.0000, 0.0030]  Wilson [0.0002, 0.0056]  binomial p=1.000
+    bell_8    1/1000  0.0010  cluster [0.0000, 0.0030]  Wilson [0.0002, 0.0056]  binomial p=1.000
+    ghz_8     3/1000  0.0030  cluster [0.0000, 0.0080]  Wilson [0.0010, 0.0088]  binomial p=0.080
+    qaoa_8    0/1000  0.0000  cluster [0.0000, 0.0000]  Wilson [0.0000, 0.0038]  binomial p=0.632
+    hwe_6     0/1000  0.0000  cluster [0.0000, 0.0000]  Wilson [0.0000, 0.0038]  binomial p=0.632
+  nao_a0.01
+    bell     13/1000  0.0130  cluster [0.0060, 0.0200]  Wilson [0.0076, 0.0221]  binomial p=0.336
+    ghz_3    12/1000  0.0120  cluster [0.0060, 0.0200]  Wilson [0.0069, 0.0209]  binomial p=0.522
+    qft_3    10/1000  0.0100  cluster [0.0050, 0.0160]  Wilson [0.0054, 0.0183]  binomial p=1.000
+    qaoa_3    9/1000  0.0090  cluster [0.0040, 0.0150]  Wilson [0.0047, 0.0170]  binomial p=0.874
+    vqe_3    12/1000  0.0120  cluster [0.0060, 0.0190]  Wilson [0.0069, 0.0209]  binomial p=0.522
+    bell_8    5/1000  0.0050  cluster [0.0010, 0.0100]  Wilson [0.0021, 0.0117]  binomial p=0.149
+    ghz_8    11/1000  0.0110  cluster [0.0050, 0.0180]  Wilson [0.0062, 0.0196]  binomial p=0.749
+    qaoa_8   10/1000  0.0100  cluster [0.0040, 0.0160]  Wilson [0.0054, 0.0183]  binomial p=1.000
+    hwe_6     5/1000  0.0050  cluster [0.0010, 0.0100]  Wilson [0.0021, 0.0117]  binomial p=0.149
+  nao1_a0.01
+    bell     12/1000  0.0120  cluster [0.0050, 0.0200]  Wilson [0.0069, 0.0209]  binomial p=0.522
+    ghz_3     8/1000  0.0080  cluster [0.0030, 0.0150]  Wilson [0.0041, 0.0157]  binomial p=0.634
+    qft_3    11/1000  0.0110  cluster [0.0040, 0.0200]  Wilson [0.0062, 0.0196]  binomial p=0.749
+    qaoa_3   14/1000  0.0140  cluster [0.0070, 0.0220]  Wilson [0.0084, 0.0234]  binomial p=0.201
+    vqe_3     9/1000  0.0090  cluster [0.0030, 0.0160]  Wilson [0.0047, 0.0170]  binomial p=0.874
+    bell_8   20/1000  0.0200  cluster [0.0110, 0.0310]  Wilson [0.0130, 0.0307]  binomial p=0.004
+    ghz_8    27/1000  0.0270  cluster [0.0150, 0.0410]  Wilson [0.0186, 0.0390]  binomial p=0.000
+    qaoa_8   18/1000  0.0180  cluster [0.0090, 0.0270]  Wilson [0.0114, 0.0283]  binomial p=0.017
+    hwe_6     7/1000  0.0070  cluster [0.0020, 0.0130]  Wilson [0.0034, 0.0144]  binomial p=0.426
+
+    false positives per window (observed / expected for independent runs at the nominal level)
+    nao_a0.001   windows=1800: 0: 1790 / 1791.02  1: 10 / 8.96  2+: 0 / 0.02
+    nao1_a0.001  windows=1800: 0: 1790 / 1791.02  1: 9 / 8.96  2+: 1 / 0.02
+    nao_a0.01    windows=1800: 0: 1714 / 1711.78  1: 85 / 86.45  2+: 1 / 1.76
+    nao1_a0.01   windows=1800: 0: 1697 / 1711.78  1: 84 / 86.45  2+: 19 / 1.76
+
+(b) RQ3 attribution on triggered cases by noise level (positive class: Bug)
+  zne_linear    low    cases=198 TP=186 FN=  3 FP=  0 TN=  9  bug recall 0.984  bug precision 1.000  noise recall 1.000
+  zne_linear    medium cases=209 TP=186 FN=  2 FP=  3 TN= 18  bug recall 0.989  bug precision 0.984  noise recall 0.857
+  zne_linear    high   cases=190 TP=155 FN= 11 FP= 21 TN=  3  bug recall 0.934  bug precision 0.881  noise recall 0.125
+  zne_quadratic low    cases=198 TP=182 FN=  7 FP=  0 TN=  9  bug recall 0.963  bug precision 1.000  noise recall 1.000
+  zne_quadratic medium cases=209 TP=182 FN=  6 FP=  2 TN= 19  bug recall 0.968  bug precision 0.989  noise recall 0.905
+  zne_quadratic high   cases=190 TP=148 FN= 18 FP= 12 TN= 12  bug recall 0.892  bug precision 0.925  noise recall 0.500
+
+(c) RQ4 power model for NAO on non-equivalent faults
+  by_noise             very_low  tests= 500 predicted 0.982 observed 0.980 diff -0.002  Brier 0.000 (constant 0.020)
+  by_noise             low       tests= 500 predicted 0.981 observed 0.980 diff -0.001  Brier 0.000 (constant 0.020)
+  by_noise             medium    tests= 500 predicted 0.980 observed 0.980 diff -0.000  Brier 0.000 (constant 0.020)
+  by_noise             high      tests= 500 predicted 0.897 observed 0.900 diff +0.003  Brier 0.014 (constant 0.090)
+  by_noise             very_high tests= 500 predicted 0.615 observed 0.602 diff -0.013  Brier 0.017 (constant 0.240)
+  by_occupied_outcomes 1-16      tests=1250 predicted 0.944 observed 0.942 diff -0.001  Brier 0.003 (constant 0.054)
+  by_occupied_outcomes 17-64     tests= 350 predicted 0.659 observed 0.651 diff -0.007  Brier 0.021 (constant 0.227)
+  by_occupied_outcomes 65-128    tests= 120 predicted 1.000 observed 1.000 diff +0.000  Brier 0.000 (constant 0.000)
+  by_occupied_outcomes 129-256   tests= 780 predicted 0.894 observed 0.891 diff -0.003  Brier 0.006 (constant 0.097)
+  all                            tests=2500 predicted 0.891 observed 0.888 diff -0.003  Brier 0.006 (constant 0.099)
+
+(d) RQ2 Cliff's delta on D/tau with 95% cluster-bootstrap intervals over cells
+  core      low    semantic_vs_noise_amplifying         delta=+0.982  [+0.962, +1.000]  cells=9
+  core      low    semantic_vs_noise_neutral            delta=+0.994  [+0.981, +1.000]  cells=9
+  core      low    noise_amplifying_vs_noise_neutral    delta=+0.233  [+0.150, +0.339]  cells=9
+  core      medium semantic_vs_noise_amplifying         delta=+0.942  [+0.898, +0.985]  cells=9
+  core      medium semantic_vs_noise_neutral            delta=+0.990  [+0.974, +1.000]  cells=9
+  core      medium noise_amplifying_vs_noise_neutral    delta=+0.274  [+0.146, +0.383]  cells=9
+  core      high   semantic_vs_noise_amplifying         delta=+0.747  [+0.669, +0.844]  cells=9
+  core      high   semantic_vs_noise_neutral            delta=+0.937  [+0.880, +0.979]  cells=9
+  core      high   noise_amplifying_vs_noise_neutral    delta=+0.247  [+0.127, +0.355]  cells=9
+  core      pooled semantic_vs_noise_amplifying         delta=+0.909  [+0.857, +0.953]  cells=27
+  core      pooled semantic_vs_noise_neutral            delta=+0.979  [+0.961, +0.992]  cells=27
+  core      pooled noise_amplifying_vs_noise_neutral    delta=+0.244  [+0.180, +0.309]  cells=27
+  qasmbench low    semantic_vs_noise_amplifying         delta=+0.948  [+0.889, +0.989]  cells=32
+  qasmbench low    semantic_vs_noise_neutral            delta=+0.972  [+0.927, +0.998]  cells=32
+  qasmbench low    noise_amplifying_vs_noise_neutral    delta=+0.208  [+0.125, +0.297]  cells=32
+  qasmbench medium semantic_vs_noise_amplifying         delta=+0.778  [+0.666, +0.882]  cells=32
+  qasmbench medium semantic_vs_noise_neutral            delta=+0.879  [+0.776, +0.954]  cells=32
+  qasmbench medium noise_amplifying_vs_noise_neutral    delta=+0.260  [+0.181, +0.333]  cells=32
+  qasmbench high   semantic_vs_noise_amplifying         delta=+0.507  [+0.356, +0.641]  cells=31
+  qasmbench high   semantic_vs_noise_neutral            delta=+0.716  [+0.549, +0.855]  cells=31
+  qasmbench high   noise_amplifying_vs_noise_neutral    delta=+0.316  [+0.228, +0.407]  cells=31
+  qasmbench pooled semantic_vs_noise_amplifying         delta=+0.759  [+0.681, +0.831]  cells=95
+  qasmbench pooled semantic_vs_noise_neutral            delta=+0.860  [+0.793, +0.921]  cells=95
+  qasmbench pooled noise_amplifying_vs_noise_neutral    delta=+0.260  [+0.211, +0.309]  cells=95

@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Detection of non-equivalent injected faults (negatives: correct runs). Equivalent injections are reported separately.}
+\label{tab:rq4-faults}
+\small
+\begin{tabular}{lrrrrrrrrr}
+\toprule
+Oracle & TP & FN & FP & TN & Recall $\uparrow$ & Precision $\uparrow$ & F1 $\uparrow$ & FPR $\downarrow$ & Equiv. rejected $\downarrow$ \\
+\midrule
+NAO & 2221 & 279 & 2 & 1348 & 0.888 & 0.999 & 0.941 & 0.0015 & 1/800 \\
+NAO-1 & 2192 & 308 & 1 & 1349 & 0.877 & 1.000 & 0.934 & 0.0007 & 1/800 \\
+SPC envelope & 2004 & 496 & 0 & 1350 & 0.802 & 1.000 & 0.890 & 0.0000 & 0/800 \\
+Fixed $\tau=0.01$ & 2462 & 38 & 886 & 464 & 0.985 & 0.735 & 0.842 & 0.6563 & 375/800 \\
+Fixed $\tau=0.02$ & 2431 & 69 & 803 & 547 & 0.972 & 0.752 & 0.848 & 0.5948 & 349/800 \\
+Fixed $\tau=0.05$ & 2303 & 197 & 544 & 806 & 0.921 & 0.809 & 0.861 & 0.4030 & 231/800 \\
+Fixed $\tau=0.1$ & 2115 & 385 & 480 & 870 & 0.846 & 0.815 & 0.830 & 0.3556 & 200/800 \\
+\bottomrule
+\end{tabular}
+\end{table}

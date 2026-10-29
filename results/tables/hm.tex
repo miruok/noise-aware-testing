@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Mini campaign HM on ibm_kingston: rejected / tested runs (small programs: first job; larger programs and real bugs: third job).}
+\label{tab:hm}
+\small
+\begin{tabular}{lrrrrrrrr}
+\toprule
+Oracle & Small: correct rejected & Small: faults detected & Small: noise-ampl. rejected & Small: noise-neutral rejected & Larger: correct rejected & Larger: faults detected & Real bugs: fixed rejected & Real bugs: buggy detected \\
+\midrule
+NAO & 0/20 & 23/23 & 4/10 & 0/5 & 0/16 & 19/20 & 0/16 & 16/16 \\
+NAO-1 & 1/20 & 23/23 & 4/10 & 1/5 & 0/16 & 19/20 & 0/16 & 16/16 \\
+SPC envelope & 0/20 & 23/23 & 0/10 & 0/5 & -- & -- & -- & -- \\
+Fixed $\tau = 0.005$ & 10/20 & 23/23 & 5/10 & 3/5 & 16/16 & 20/20 & 13/16 & 16/16 \\
+Fixed $\tau = 0.02$ & 4/20 & 23/23 & 2/10 & 1/5 & 12/16 & 19/20 & 4/16 & 16/16 \\
+Fixed $\tau = 0.05$ & 0/20 & 21/23 & 1/10 & 0/5 & 8/16 & 18/20 & 0/16 & 16/16 \\
+\bottomrule
+\end{tabular}
+\end{table}

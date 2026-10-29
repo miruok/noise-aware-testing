@@ -1,0 +1,19 @@
+\begin{table}[t]
+\centering
+\caption{Semantics-preserving mutants whose compiled circuit contains more physical operations than the compiled original (in parentheses: with additional two-qubit gates).}
+\label{tab:rq2-compiled}
+\small
+\begin{tabular}{llrrr}
+\toprule
+Class & Operator & Synthetic & CX-native & CZ-native \\
+\midrule
+Noise-amplifying & cx\_pair & 234/234 & 228/234 & 234/234 \\
+ & inverse\_pair\_1q, $Y$ & 76/76 & 76/76 & 76/76 \\
+ & inverse\_pair\_1q, $Z, S, T$ & 129/129 & 15/129 & 36/129 \\
+ & rotation\_pair & 176/176 & 176/176 & 176/176 \\
+Noise-neutral & commute\_swap & 0/228 & 6/228 (6) & 10/228 (6) \\
+ & cx\_to\_h\_cz\_h & 173/283 (0) & 28/283 (9) & 13/283 (9) \\
+ & x\_to\_h\_z\_h & 0/104 & 0/104 & 7/104 (0) \\
+\bottomrule
+\end{tabular}
+\end{table}

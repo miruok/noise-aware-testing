@@ -1,0 +1,20 @@
+\begin{table}[t]
+\centering
+\caption{Extended suite of 32 QASMBench programs (163 non-equivalent faults).}
+\label{tab:ext-suite}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Oracle & FPR & Unsound programs $\downarrow$ & Recall $\uparrow$ & Precision $\uparrow$ & F1 $\uparrow$ \\
+\midrule
+NAO & 0.0013 & 0/32 & 0.776 & 0.998 & 0.873 \\
+NAO-1 & 0.0009 & 0/32 & 0.760 & 0.999 & 0.863 \\
+SPC envelope & 0.0000 & 0/32 & 0.660 & 1.000 & 0.795 \\
+Fixed $\tau=0.01$ & 0.8181 & 30/32 & 0.995 & 0.553 & 0.711 \\
+Fixed $\tau=0.05$ & 0.6230 & 30/32 & 0.976 & 0.615 & 0.754 \\
+Fixed $\tau=0.1$ & 0.5031 & 28/32 & 0.905 & 0.647 & 0.754 \\
+QOIN-style filter & 0.0544 & 3/32 & 0.549 & 0.911 & 0.685 \\
+Noise-calibrated global threshold & 0.1265 & 6/32 & 0.529 & 0.810 & 0.640 \\
+\bottomrule
+\end{tabular}
+\end{table}

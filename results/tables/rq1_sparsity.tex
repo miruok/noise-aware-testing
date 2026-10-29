@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Observed false-positive rate against the nominal level as the support grows.}
+\label{tab:rq1-sparsity}
+\small
+\begin{tabular}{rrrrrrrrrrr}
+\toprule
+Outcomes $d$ & Shots/outcome & Flat: NAO, $\alpha=0.01$ & Flat: NAO-1, $\alpha=0.01$ & Flat: NAO, $\alpha=0.05$ & Skewed: NAO, $\alpha=0.01$ & Skewed: NAO-1, $\alpha=0.01$ & Skewed: NAO, $\alpha=0.05$ & Head-tail: NAO, $\alpha=0.01$ & Head-tail: NAO-1, $\alpha=0.01$ & Head-tail: NAO, $\alpha=0.05$ \\
+\midrule
+8 & 512 & 0.0050 & 0.0140 & 0.042 & 0.0060 & 0.0130 & 0.048 & 0.0090 & 0.0110 & 0.051 \\
+64 & 64 & 0.0080 & 0.0090 & 0.046 & 0.0170 & 0.0170 & 0.061 & 0.0100 & 0.0020 & 0.062 \\
+256 & 16 & 0.0100 & 0.0180 & 0.046 & 0.0080 & 0.0140 & 0.049 & 0.0080 & 0.0230 & 0.042 \\
+1024 & 4 & 0.0150 & 0.0540 & 0.075 & 0.0980 & 0.0580 & 0.281 & 0.2640 & 0.0060 & 0.514 \\
+4096 & 1 & 0.0620 & 0.1780 & 0.214 & 0.0000 & 0.0000 & 0.000 & 0.0000 & 0.0000 & 0.000 \\
+16384 & 0.25 & 0.0430 & 0.0670 & 0.150 & 0.0000 & 0.0000 & 0.000 & 0.0000 & 0.0000 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

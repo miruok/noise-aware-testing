@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{Real bugs from Bugs4Q: detection rate of the buggy program.}
+\label{tab:rq4-realbugs}
+\small
+\begin{tabular}{llrrrrr}
+\toprule
+Bug & Kind & Qubits & Ideal JSD & NAO & SPC & Fixed $\tau=0.05$ \\
+\midrule
+aer\_664 & measurement mapping & 3 & 1.000 & 1.00 & 1.00 & 1.00 \\
+so\_610\_1 & qubit order & 3 & 1.000 & 0.97 & 0.86 & 1.00 \\
+so\_610\_2 & wrong gate & 2 & 0.311 & 1.00 & 0.89 & 1.00 \\
+so\_610\_3 & wrong subroutine & 3 & 1.000 & 0.91 & 0.86 & 1.00 \\
+se\_9 & measurement mapping & 3 & 1.000 & 1.00 & 1.00 & 1.00 \\
+se\_15 & wrong subroutine & 4 & 0.581 & 0.86 & 0.71 & 1.00 \\
+terra\_5580 & qubit order & 3 & 0.000 & 1.00 & 0.44 & 0.60 \\
+terra\_5098 & control state & 3 & 0.000 & 0.64 & 0.00 & 0.71 \\
+sep\_9 & missing gates & 4 & 0.829 & 0.97 & 0.86 & 0.86 \\
+sep\_19 & wrong initial state & 2 & 1.000 & 1.00 & 1.00 & 1.00 \\
+Observable bugs: recall / precision / F1 &  &  &  & 0.964 / 0.994 / 0.979 & 0.896 / 1.000 / 0.945 & 0.982 / 0.330 / 0.494 \\
+FPR on runs of the fixed programs &  &  &  & 0.0014 & 0.0000 & 0.5314 \\
+\bottomrule
+\end{tabular}
+\end{table}

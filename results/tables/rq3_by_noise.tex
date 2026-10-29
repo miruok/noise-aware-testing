@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Attribution of the cases rejected by NAO, by noise level (positive class: Bug).}
+\label{tab:rq3-by-noise}
+\small
+\begin{tabular}{llrrrrrrr}
+\toprule
+Method & Noise & TP & FN & FP & TN & Bug rec. & Bug prec. & Noise rec. \\
+\midrule
+ZNE linear & low & 186 & 3 & 0 & 9 & 0.984 & 1.000 & 1.000 \\
+ZNE linear & medium & 186 & 2 & 3 & 18 & 0.989 & 0.984 & 0.857 \\
+ZNE linear & high & 155 & 11 & 21 & 3 & 0.934 & 0.881 & 0.125 \\
+ZNE quadratic & low & 182 & 7 & 0 & 9 & 0.963 & 1.000 & 1.000 \\
+ZNE quadratic & medium & 182 & 6 & 2 & 19 & 0.968 & 0.989 & 0.905 \\
+ZNE quadratic & high & 148 & 18 & 12 & 12 & 0.892 & 0.925 & 0.500 \\
+\bottomrule
+\end{tabular}
+\end{table}

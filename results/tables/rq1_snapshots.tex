@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{False-positive rate on device-snapshot backends under fixed and per-run compilation.}
+\label{tab:rq1-snapshots}
+\small
+\begin{tabular}{llrrrrrrr}
+\toprule
+Backend & Compilation & NAO $\downarrow$ & NAO-1 $\downarrow$ & SPC $\downarrow$ & Fixed 0.005 $\downarrow$ & Fixed 0.05 $\downarrow$ & Fixed 0.1 $\downarrow$ & Drift flagged \\
+\midrule
+fake\_kolkata & fixed & 0.002 & 0.000 & 0.000 & 0.628 & 0.137 & 0.000 & 0.01 \\
+fake\_kolkata & random & 0.002 & 0.100 & 0.000 & 0.650 & 0.142 & 0.012 & 0.25 \\
+fake\_lagos & fixed & 0.003 & 0.000 & 0.000 & 0.800 & 0.800 & 0.600 & 0.01 \\
+fake\_lagos & random & 0.005 & 0.107 & 0.000 & 0.800 & 0.800 & 0.600 & 0.20 \\
+fake\_manila & fixed & 0.000 & 0.000 & 0.000 & 0.800 & 0.200 & 0.000 & 0.01 \\
+fake\_manila & random & 0.005 & 0.107 & 0.000 & 0.800 & 0.200 & 0.000 & 0.24 \\
+\bottomrule
+\end{tabular}
+\end{table}

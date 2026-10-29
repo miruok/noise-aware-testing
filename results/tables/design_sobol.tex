@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{First-order ($S_1$) and total ($S_T$) Sobol indices of oracle parameters.}
+\label{tab:design-sobol}
+\small
+\begin{tabular}{lllrr}
+\toprule
+Oracle & Response & Parameter & $S_1$ & $S_T$ \\
+\midrule
+SPC envelope & FPR & K & 0.083 & 0.308 \\
+SPC envelope & FPR & k & 0.291 & 0.700 \\
+SPC envelope & FPR & tau\_min & 0.154 & 0.532 \\
+SPC envelope & recall & K & 0.000 & 0.000 \\
+SPC envelope & recall & k & 0.006 & 0.008 \\
+SPC envelope & recall & tau\_min & 0.992 & 0.994 \\
+NAO & FPR & alpha & 0.558 & 0.895 \\
+NAO & FPR & K & 0.018 & 0.295 \\
+NAO & FPR & shots & 0.024 & 0.327 \\
+NAO & recall & alpha & 0.043 & 0.175 \\
+NAO & recall & K & 0.062 & 0.231 \\
+NAO & recall & shots & 0.639 & 0.880 \\
+\bottomrule
+\end{tabular}
+\end{table}

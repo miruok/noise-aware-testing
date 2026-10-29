@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{Attribution by extrapolation method on identical executions.}
+\label{tab:rq3-extrapolation}
+\small
+\begin{tabular}{llrrrr}
+\toprule
+Data & Extrapolation & Accuracy $\uparrow$ & $\kappa$ $\uparrow$ & Bug recall $\uparrow$ & Noise recall $\uparrow$ \\
+\midrule
+synthetic, all cases & linear & 0.927 & 0.854 & 0.914 & 0.944 \\
+synthetic, all cases & quadratic & 0.917 & 0.834 & 0.887 & 0.954 \\
+synthetic, all cases & exponential & 0.912 & 0.824 & 0.912 & 0.912 \\
+synthetic, triggered only & linear & 0.932 & 0.593 & 0.967 & 0.603 \\
+synthetic, triggered only & quadratic & 0.924 & 0.615 & 0.941 & 0.759 \\
+synthetic, triggered only & exponential & 0.915 & 0.477 & 0.961 & 0.483 \\
+snapshot, all cases & linear & 0.959 & 0.918 & 0.952 & 0.967 \\
+snapshot, all cases & quadratic & 0.941 & 0.883 & 0.905 & 0.984 \\
+snapshot, all cases & exponential & 0.962 & 0.923 & 0.957 & 0.967 \\
+snapshot, triggered only & linear & 0.980 & -0.007 & 0.995 & 0.000 \\
+snapshot, triggered only & quadratic & 0.941 & 0.122 & 0.950 & 0.333 \\
+snapshot, triggered only & exponential & 0.980 & -0.007 & 0.995 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

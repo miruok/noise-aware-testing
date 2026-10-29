@@ -1,0 +1,32 @@
+\begin{table}[t]
+\centering
+\caption{False-positive rate when testing at $\eta_0(1+r)$ after calibration at $\eta_0 = 0.005$, without recalibration and with a one-run sentinel at $\alpha_s = 10^{-3}$ (drift figure, panel a).}
+\label{tab:rq5-drift-one-run}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Benchmark & $r$ & FPR NAO & FPR NAO + sentinel & FPR SPC & Recalibrated \\
+\midrule
+GHZ-3 & 0.00 & 0.000 & 0.000 & 0.000 & 0.00 \\
+GHZ-3 & 0.10 & 0.016 & 0.016 & 0.000 & 0.00 \\
+GHZ-3 & 0.25 & 0.400 & 0.224 & 0.000 & 0.40 \\
+GHZ-3 & 0.50 & 0.984 & 0.008 & 0.000 & 1.00 \\
+GHZ-3 & 1.00 & 1.000 & 0.000 & 0.000 & 1.00 \\
+QAOA-3 & 0.00 & 0.000 & 0.000 & 0.000 & 0.00 \\
+QAOA-3 & 0.10 & 0.008 & 0.008 & 0.000 & 0.00 \\
+QAOA-3 & 0.25 & 0.656 & 0.184 & 0.000 & 0.72 \\
+QAOA-3 & 0.50 & 1.000 & 0.000 & 0.000 & 1.00 \\
+QAOA-3 & 1.00 & 1.000 & 0.000 & 0.000 & 1.00 \\
+Bell-8 & 0.00 & 0.000 & 0.000 & 0.000 & 0.00 \\
+Bell-8 & 0.10 & 0.000 & 0.000 & 0.000 & 0.00 \\
+Bell-8 & 0.25 & 0.272 & 0.192 & 0.056 & 0.24 \\
+Bell-8 & 0.50 & 1.000 & 0.000 & 1.000 & 1.00 \\
+Bell-8 & 1.00 & 1.000 & 0.000 & 1.000 & 1.00 \\
+QAOA-8 & 0.00 & 0.000 & 0.000 & 0.008 & 0.00 \\
+QAOA-8 & 0.10 & 0.000 & 0.000 & 0.000 & 0.00 \\
+QAOA-8 & 0.25 & 0.016 & 0.016 & 0.024 & 0.04 \\
+QAOA-8 & 0.50 & 0.184 & 0.176 & 0.040 & 0.08 \\
+QAOA-8 & 1.00 & 1.000 & 0.000 & 0.784 & 1.00 \\
+\bottomrule
+\end{tabular}
+\end{table}

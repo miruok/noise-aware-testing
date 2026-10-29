@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Bug-noise attribution with exact labels (all cases n = 1062; triggered by NAO n = 597).}
+\label{tab:rq3-attribution}
+\small
+\begin{tabular}{llrrrrr}
+\toprule
+Cases & Method & Accuracy $\uparrow$ & $\kappa$ $\uparrow$ & Bug prec. $\uparrow$ & Bug recall $\uparrow$ & Noise recall $\uparrow$ \\
+\midrule
+all cases & ZNE attribution (linear) & 0.920 & 0.839 & 0.941 & 0.911 & 0.931 \\
+all cases & ZNE attribution (quadratic) & 0.915 & 0.830 & 0.956 & 0.887 & 0.950 \\
+all cases & Re-execution triage & 0.827 & 0.662 & 1.000 & 0.684 & 1.000 \\
+triggered only & ZNE attribution (linear) & 0.933 & 0.564 & 0.956 & 0.971 & 0.556 \\
+triggered only & ZNE attribution (quadratic) & 0.925 & 0.599 & 0.973 & 0.943 & 0.741 \\
+triggered only & Re-execution triage & 0.754 & 0.328 & 1.000 & 0.729 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

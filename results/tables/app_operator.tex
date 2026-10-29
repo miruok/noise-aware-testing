@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{Rejection rate of mutants by operator under NAO (RQ2).}
+\label{tab:app-operator}
+\small
+\begin{tabular}{llrr}
+\toprule
+Class & Operator & $n$ & Rejected \\
+\midrule
+Semantic & insert\_cnot & 108 & 0.935 \\
+Semantic & insert\_rotation & 159 & 0.925 \\
+Semantic & insert\_t & 42 & 0.738 \\
+Semantic & insert\_x & 96 & 0.979 \\
+Semantic & remove\_gate & 165 & 1.000 \\
+Semantic & remove\_1q\_gate & 171 & 0.965 \\
+Semantic & rotation\_to\_identity & 69 & 0.826 \\
+Noise-amplifying & cx\_pair & 156 & 0.538 \\
+Noise-amplifying & inverse\_pair\_1q & 135 & 0.000 \\
+Noise-amplifying & rotation\_pair & 114 & 0.000 \\
+Noise-neutral & commute\_swap & 117 & 0.000 \\
+Noise-neutral & cx\_to\_h\_cz\_h & 288 & 0.007 \\
+\bottomrule
+\end{tabular}
+\end{table}

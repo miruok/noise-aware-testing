@@ -1,0 +1,24 @@
+\begin{table}[t]
+\centering
+\caption{Fraction of raw mutation draws that are semantically equivalent to the original program.}
+\label{tab:rq2-census}
+\small
+\begin{tabular}{llrrr}
+\toprule
+Family & Operator & Draws & Equiv. $|0\rangle$ $\downarrow$ & Equiv. 4 inputs $\downarrow$ \\
+\midrule
+Noise-amplifying & cx\_pair & 900 & 1.000 & 1.000 \\
+Noise-amplifying & inverse\_pair\_1q & 900 & 1.000 & 1.000 \\
+Noise-amplifying & rotation\_pair & 900 & 1.000 & 1.000 \\
+Noise-neutral & commute\_swap & 500 & 1.000 & 1.000 \\
+Noise-neutral & cx\_to\_h\_cz\_h & 800 & 1.000 & 1.000 \\
+Semantic (additive) & insert\_cnot & 900 & 0.481 & 0.209 \\
+Semantic (additive) & insert\_rotation & 900 & 0.282 & 0.267 \\
+Semantic (additive) & insert\_t & 900 & 0.697 & 0.697 \\
+Semantic (additive) & insert\_x & 900 & 0.243 & 0.243 \\
+Semantic (subtractive) & remove\_1q\_gate & 900 & 0.000 & 0.000 \\
+Semantic (subtractive) & remove\_gate & 900 & 0.097 & 0.066 \\
+Semantic (subtractive) & rotation\_to\_identity & 400 & 0.000 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
