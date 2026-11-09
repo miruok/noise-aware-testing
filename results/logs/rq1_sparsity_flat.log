@@ -1,6 +1,0 @@
-flat   d=     8 N/d= 512.00 NAO FPR@1e-2=0.0050 NAO-1=0.0140
-flat   d=    64 N/d=  64.00 NAO FPR@1e-2=0.0080 NAO-1=0.0090
-flat   d=   256 N/d=  16.00 NAO FPR@1e-2=0.0100 NAO-1=0.0180
-flat   d=  1024 N/d=   4.00 NAO FPR@1e-2=0.0150 NAO-1=0.0540
-flat   d=  4096 N/d=   1.00 NAO FPR@1e-2=0.0620 NAO-1=0.1780
-flat   d= 16384 N/d=   0.25 NAO FPR@1e-2=0.0430 NAO-1=0.0670
