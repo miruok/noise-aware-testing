@@ -142,5 +142,16 @@ transcribes ten bugs from Bugs4Q (https://github.com/Z-928/Bugs4Q, Apache 2.0);
 each entry records its Bugs4Q path and original source.
 
 ## License and citation
+The code is released under the MIT License (`LICENSE`). If you use this package, please cite the
+paper; citation metadata is in `CITATION.cff`, and GitHub offers it under "Cite this repository".
 
-MIT License (`LICENSE`). Citation metadata: `CITATION.cff`.
+```bibtex
+@misc{yousuf2026noiseaware,
+  author = {Yousuf, Mir Mohammad and Sofi, Shabir Ahmad},
+  title  = {Noise-Aware Testing of {NISQ} Quantum Programs: Self-Baseline Oracle with a
+            Controlled False-Positive Rate},
+  year   = {2026},
+  note   = {Replication package, release v1.0},
+  url    = {https://github.com/miruok/noise-aware-testing}
+}
+```
