@@ -2,7 +2,7 @@
 
 Mir Mohammad Yousuf and Shabir Ahmad Sofi, National Institute of Technology Srinagar.
 
-## Campaign HM (mini campaign): fits the free 10-minute allowance
+## Campaign HM (mini campaign): sized to fit the free IBM Quantum allowance
 
 HM tests every research question on one IBM device with about half of the Open Plan
 allowance (10 minutes of QPU time) and keeps the rest as a reserve. It is independent of
@@ -46,28 +46,28 @@ python hardware/analyze_mini.py                       # final results
 * All circuits of a step are interleaved in a seeded random order inside one job, and
   step `b` reuses the qubit layout of step `a`.
 * Results: `results/hardware_analysis/real/hm/REPORT.txt`, `analysis.json` and
-  `hm_table.tex` (the table for the paper).
+  `hm_table.tex` (the results as a LaTeX table).
 
 ## Campaigns H1 to H3
 
-H1 (mutants and faults on GHZ-3, QAOA-3, Bell-8), H2 (drift sessions on GHZ-3 and
-QAOA-3) and H3 (attribution on GHZ-3 and QAOA-3) need about 6 to 7 minutes of QPU time,
-so they are run from an account whose allowance is not used by HM. They use the same
-noise-aware layout choice as HM, keep the layout of the first campaign for all later
+QAOA-3) and H3 (attribution on GHZ-3 and QAOA-3) need about 6 to 7 minutes of QPU time
+in addition to HM, so they are run on an IBM Quantum instance with enough remaining QPU time.
+They use the same noise-aware layout choice as HM, keep the layout of the first campaign for all later
 campaigns and sessions, interleave circuits in random order, record QPU seconds, and
 refuse to submit when the account's remaining allowance (minus a 60 s reserve) is too small.
 
-Save the second account under its own name, once:
+To keep the bookkeeping of H1 to H3 separate from HM, save the instance used for them under
+its own name, once:
 ```python
 from qiskit_ibm_runtime import QiskitRuntimeService
-QiskitRuntimeService.save_account(channel="ibm_quantum_platform", token="<API key>", instance="<CRN>", name="second", overwrite=True)
+QiskitRuntimeService.save_account(channel="ibm_quantum_platform", token="<API key>", instance="<CRN>", name="h-campaigns", overwrite=True)
 ```
 Then, with `--account second` on every command and the same backend throughout:
 ```bash
 python hardware/run_hardware.py plan
-python hardware/run_hardware.py h1 --backend ibm_kingston --account second   # about 3 min
-python hardware/run_hardware.py h3 --backend ibm_kingston --account second   # about 1 min
-python hardware/run_hardware.py h2 --backend ibm_kingston --account second   # about 20 s; one session
+python hardware/run_hardware.py h1 --backend ibm_kingston --account h-campaigns   # about 3 min
+python hardware/run_hardware.py h3 --backend ibm_kingston --account h-campaigns   # about 1 min
+python hardware/run_hardware.py h2 --backend ibm_kingston --account h-campaigns   # about 20 s; one session
 python hardware/analyze_hardware.py
 ```
 Run `h2` 8 times, every 2 to 3 hours across two days, so that at least one session falls on a
@@ -80,7 +80,7 @@ different calibration day. Steps of HM keep using the default account (no `--acc
 * `h2` drift session: 8 calibration runs of each circuit; repeated sessions give the
   stability of the output distribution over hours and days.
 * `h3` attribution: noise-amplifying mutants and semantic mutants, each folded
-  at noise scales 1 and 3, analysed by zero-noise extrapolation.
+  at noise scales 1 and 3, analyzed by zero-noise extrapolation.
 
 All circuits of a campaign are transpiled once with a fixed seed onto one initial
 layout per benchmark and submitted as a single job.
