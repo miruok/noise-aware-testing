@@ -50,11 +50,11 @@ python hardware/analyze_mini.py                       # final results
 
 ## Campaigns H1 to H3
 
-QAOA-3) and H3 (attribution on GHZ-3 and QAOA-3) need about 6 to 7 minutes of QPU time
+   H1 (mutants and faults on GHZ-3, QAOA-3, Bell-8), H2 (drift sessions on GHZ-3 and QAOA-3) and H3 (attribution on GHZ-3 and QAOA-3) need about 6 to 7 minutes of QPU time
 in addition to HM, so they are run on an IBM Quantum instance with enough remaining QPU time.
 They use the same noise-aware layout choice as HM, keep the layout of the first campaign for all later
 campaigns and sessions, interleave circuits in random order, record QPU seconds, and
-refuse to submit when the account's remaining allowance (minus a 60 s reserve) is too small.
+refuse to submit when the instance's remaining allowance (minus a 60 s reserve) is too small.
 
 To keep the bookkeeping of H1 to H3 separate from HM, save the instance used for them under
 its own name, once:
@@ -62,7 +62,7 @@ its own name, once:
 from qiskit_ibm_runtime import QiskitRuntimeService
 QiskitRuntimeService.save_account(channel="ibm_quantum_platform", token="<API key>", instance="<CRN>", name="h-campaigns", overwrite=True)
 ```
-Then, with `--account second` on every command and the same backend throughout:
+Then, with `--account h-campaigns` on every command and the same backend throughout:
 ```bash
 python hardware/run_hardware.py plan
 python hardware/run_hardware.py h1 --backend ibm_kingston --account h-campaigns   # about 3 min
